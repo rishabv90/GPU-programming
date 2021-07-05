@@ -1,0 +1,40 @@
+{"data": {"elapsed_time": 12500361, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 43, "end_time": 1341412866417460, "id": "60bf991c-1c3f-4a93-ae7f-01c361ebbe58", "idx": 0, "kind": "Generic", "message": "Importing data and creating memory on host", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 39, "start_time": 1341412853917099, "stopped": true}, "id": "60bf991c-1c3f-4a93-ae7f-01c361ebbe58", "session_id": "session_id_disabled", "type": "timer"}
+{"data": {"file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "function": "main", "id": "6247fb1f-0a67-4bf1-88d2-142c3a474881", "level": "Trace", "line": 45, "message": "The input length is 16", "mpi_rank": 0, "session_id": "session_id_disabled", "time": 1341412866614040}, "id": "6247fb1f-0a67-4bf1-88d2-142c3a474881", "session_id": "session_id_disabled", "type": "logger"}
+{"data": {"elapsed_time": 158101447, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 66, "end_time": 1341413024754978, "id": "484b5679-1a13-4010-93fb-a4df7880cabe", "idx": 1, "kind": "GPU", "message": "Allocating GPU memory.", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 47, "start_time": 1341412866653531, "stopped": true}, "id": "484b5679-1a13-4010-93fb-a4df7880cabe", "session_id": "session_id_disabled", "type": "timer"}
+{"data": {"elapsed_time": 41743, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 93, "end_time": 1341413024837974, "id": "32e5ad96-69a7-4374-892e-2a13a6d3876d", "idx": 2, "kind": "GPU", "message": "Copying input memory to the GPU.", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 68, "start_time": 1341413024796231, "stopped": true}, "id": "32e5ad96-69a7-4374-892e-2a13a6d3876d", "session_id": "session_id_disabled", "type": "timer"}
+
+ SUM for tid 0 , bid 0 is -0.400000 + -1.000000 = -1.400000
+
+ SUM for tid 1 , bid 0 is 0.200000 + 0.200000 = 0.400000
+
+ SUM for tid 2 , bid 0 is 2.400000 + 1.400000 = 3.800000
+
+ SUM for tid 3 , bid 0 is 2.000000 + 2.200000 = 4.200000
+
+ SUM for tid 4 , bid 0 is 1.600000 + 1.200000 = 2.800000
+
+ SUM for tid 5 , bid 0 is 2.000000 + 0.600000 = 2.600000
+
+ SUM for tid 6 , bid 0 is 0.200000 + 0.400000 = 0.600000
+
+ SUM for tid 7 , bid 0 is 1.400000 + 0.800000 = 2.200000
+
+ SUM for tid 8 , bid 0 is 0.800000 + -0.600000 = 0.200000
+
+ SUM for tid 9 , bid 0 is -0.800000 + 1.000000 = 0.200000
+
+ SUM for tid 10 , bid 0 is -0.600000 + -0.600000 = -1.200000
+
+ SUM for tid 11 , bid 0 is 0.400000 + -0.400000 = 0.000000
+
+ SUM for tid 12 , bid 0 is 1.000000 + 0.400000 = 1.400000
+
+ SUM for tid 13 , bid 0 is 2.800000 + 2.000000 = 4.800000
+
+ SUM for tid 14 , bid 0 is -0.400000 + 0.800000 = 0.400000
+
+ SUM for tid 15 , bid 0 is 0.200000 + -0.600000 = -0.400000
+{"data": {"elapsed_time": 1650743, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 106, "end_time": 1341413026517304, "id": "0e32aab5-23d7-43df-8847-eb45fd0ed2be", "idx": 3, "kind": "Compute", "message": "Performing CUDA computation", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 100, "start_time": 1341413024866561, "stopped": true}, "id": "0e32aab5-23d7-43df-8847-eb45fd0ed2be", "session_id": "session_id_disabled", "type": "timer"}
+{"data": {"elapsed_time": 26259, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 122, "end_time": 1341413026565083, "id": "1f2ed062-e8d7-4878-a727-301ca6343ff0", "idx": 4, "kind": "Copy", "message": "Copying output memory to the CPU", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 108, "start_time": 1341413026538824, "stopped": true}, "id": "1f2ed062-e8d7-4878-a727-301ca6343ff0", "session_id": "session_id_disabled", "type": "timer"}
+{"data": {"elapsed_time": 106287, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 132, "end_time": 1341413026689665, "id": "2cca08ae-92a2-4964-8066-2e4278b3acf9", "idx": 5, "kind": "GPU", "message": "Freeing GPU Memory", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 124, "start_time": 1341413026583378, "stopped": true}, "id": "2cca08ae-92a2-4964-8066-2e4278b3acf9", "session_id": "session_id_disabled", "type": "timer"}
+{"data": {"correctq": true, "message": "The solution is correct"}, "type": "solution"}

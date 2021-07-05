@@ -1,0 +1,2474 @@
+{"data": {"elapsed_time": 23672894, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 43, "end_time": 1341415184742321, "id": "1a314cd7-7509-4895-b3b8-ad41f5354998", "idx": 0, "kind": "Generic", "message": "Importing data and creating memory on host", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 39, "start_time": 1341415161069427, "stopped": true}, "id": "1a314cd7-7509-4895-b3b8-ad41f5354998", "session_id": "session_id_disabled", "type": "timer"}
+{"data": {"file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "function": "main", "id": "4b696228-cc1b-4770-9552-bccfbe932c59", "level": "Trace", "line": 45, "message": "The input length is 1233", "mpi_rank": 0, "session_id": "session_id_disabled", "time": 1341415184823014}, "id": "4b696228-cc1b-4770-9552-bccfbe932c59", "session_id": "session_id_disabled", "type": "logger"}
+{"data": {"elapsed_time": 129404939, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 66, "end_time": 1341415314243343, "id": "b5c09fb8-4ef3-4b15-a786-0937594ad51d", "idx": 1, "kind": "GPU", "message": "Allocating GPU memory.", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 47, "start_time": 1341415184838404, "stopped": true}, "id": "b5c09fb8-4ef3-4b15-a786-0937594ad51d", "session_id": "session_id_disabled", "type": "timer"}
+{"data": {"elapsed_time": 44194, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 93, "end_time": 1341415314327453, "id": "b6f8b129-d60f-4431-9250-77bbdbb220db", "idx": 2, "kind": "GPU", "message": "Copying input memory to the GPU.", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 68, "start_time": 1341415314283259, "stopped": true}, "id": "b6f8b129-d60f-4431-9250-77bbdbb220db", "session_id": "session_id_disabled", "type": "timer"}
+
+ SUM for tid 192 , bid 4 is -0.400000 + 2.000000 = 1.600000
+
+ SUM for tid 193 , bid 4 is 0.000000 + -0.400000 = -0.400000
+
+ SUM for tid 194 , bid 4 is -0.600000 + 1.400000 = 0.800000
+
+ SUM for tid 195 , bid 4 is 1.200000 + 1.200000 = 2.400000
+
+ SUM for tid 196 , bid 4 is 1.000000 + 2.200000 = 3.200000
+
+ SUM for tid 197 , bid 4 is 2.800000 + 2.600000 = 5.400000
+
+ SUM for tid 198 , bid 4 is -1.000000 + -0.600000 = -1.600000
+
+ SUM for tid 199 , bid 4 is 2.600000 + 1.400000 = 4.000000
+
+ SUM for tid 200 , bid 4 is 1.200000 + -0.200000 = 1.000000
+
+ SUM for tid 201 , bid 4 is 2.600000 + 2.000000 = 4.600000
+
+ SUM for tid 202 , bid 4 is 2.800000 + 2.400000 = 5.200000
+
+ SUM for tid 203 , bid 4 is 2.600000 + 1.000000 = 3.600000
+
+ SUM for tid 204 , bid 4 is 1.000000 + 2.000000 = 3.000000
+
+ SUM for tid 205 , bid 4 is 1.600000 + 0.400000 = 2.000000
+
+ SUM for tid 206 , bid 4 is -1.000000 + -0.400000 = -1.400000
+
+ SUM for tid 207 , bid 4 is -0.200000 + 1.200000 = 1.000000
+
+ SUM for tid 208 , bid 4 is 0.200000 + -1.000000 = -0.800000
+
+ SUM for tid 96 , bid 0 is 2.600000 + -0.200000 = 2.400000
+
+ SUM for tid 97 , bid 0 is 0.800000 + 1.000000 = 1.800000
+
+ SUM for tid 98 , bid 0 is 0.600000 + 1.600000 = 2.200000
+
+ SUM for tid 99 , bid 0 is -0.600000 + 0.000000 = -0.600000
+
+ SUM for tid 100 , bid 0 is 0.200000 + 2.400000 = 2.600000
+
+ SUM for tid 101 , bid 0 is -1.000000 + -0.600000 = -1.600000
+
+ SUM for tid 102 , bid 0 is 1.400000 + -0.200000 = 1.200000
+
+ SUM for tid 103 , bid 0 is -1.000000 + 1.800000 = 0.800000
+
+ SUM for tid 104 , bid 0 is 1.200000 + 0.000000 = 1.200000
+
+ SUM for tid 105 , bid 0 is -0.400000 + 1.600000 = 1.200000
+
+ SUM for tid 106 , bid 0 is 0.600000 + -0.200000 = 0.400000
+
+ SUM for tid 107 , bid 0 is 2.400000 + 1.400000 = 3.800000
+
+ SUM for tid 108 , bid 0 is 2.800000 + 1.800000 = 4.600000
+
+ SUM for tid 109 , bid 0 is 1.400000 + 0.200000 = 1.600000
+
+ SUM for tid 110 , bid 0 is -0.800000 + 1.800000 = 1.000000
+
+ SUM for tid 111 , bid 0 is -0.600000 + 0.000000 = -0.600000
+
+ SUM for tid 112 , bid 0 is 2.000000 + 2.800000 = 4.800000
+
+ SUM for tid 113 , bid 0 is -0.600000 + 2.800000 = 2.200000
+
+ SUM for tid 114 , bid 0 is 0.800000 + 0.400000 = 1.200000
+
+ SUM for tid 115 , bid 0 is 0.000000 + -0.400000 = -0.400000
+
+ SUM for tid 116 , bid 0 is 0.800000 + 0.600000 = 1.400000
+
+ SUM for tid 117 , bid 0 is 0.400000 + -0.400000 = 0.000000
+
+ SUM for tid 118 , bid 0 is 0.400000 + 0.800000 = 1.200000
+
+ SUM for tid 119 , bid 0 is 2.800000 + -0.600000 = 2.200000
+
+ SUM for tid 120 , bid 0 is 0.200000 + 0.200000 = 0.400000
+
+ SUM for tid 121 , bid 0 is -0.600000 + 0.400000 = -0.200000
+
+ SUM for tid 122 , bid 0 is 0.200000 + 0.800000 = 1.000000
+
+ SUM for tid 123 , bid 0 is 0.800000 + -0.800000 = 0.000000
+
+ SUM for tid 124 , bid 0 is -0.400000 + -0.800000 = -1.200000
+
+ SUM for tid 125 , bid 0 is 1.800000 + 1.400000 = 3.200000
+
+ SUM for tid 126 , bid 0 is 1.400000 + -0.200000 = 1.200000
+
+ SUM for tid 127 , bid 0 is 1.800000 + 0.000000 = 1.800000
+
+ SUM for tid 64 , bid 0 is 2.800000 + 2.000000 = 4.800000
+
+ SUM for tid 65 , bid 0 is 2.400000 + 1.000000 = 3.400000
+
+ SUM for tid 66 , bid 0 is -1.000000 + 0.400000 = -0.600000
+
+ SUM for tid 67 , bid 0 is 1.600000 + -0.600000 = 1.000000
+
+ SUM for tid 68 , bid 0 is 1.400000 + -0.800000 = 0.600000
+
+ SUM for tid 69 , bid 0 is 0.000000 + 1.800000 = 1.800000
+
+ SUM for tid 70 , bid 0 is 1.400000 + 2.200000 = 3.600000
+
+ SUM for tid 71 , bid 0 is 0.800000 + 0.400000 = 1.200000
+
+ SUM for tid 72 , bid 0 is 1.800000 + 0.000000 = 1.800000
+
+ SUM for tid 73 , bid 0 is 1.200000 + -0.400000 = 0.800000
+
+ SUM for tid 74 , bid 0 is 1.200000 + 0.600000 = 1.800000
+
+ SUM for tid 75 , bid 0 is 0.600000 + 1.000000 = 1.600000
+
+ SUM for tid 76 , bid 0 is 1.800000 + 0.400000 = 2.200000
+
+ SUM for tid 77 , bid 0 is -0.200000 + 0.800000 = 0.600000
+
+ SUM for tid 78 , bid 0 is 1.200000 + -0.800000 = 0.400000
+
+ SUM for tid 79 , bid 0 is -0.400000 + 1.000000 = 0.600000
+
+ SUM for tid 80 , bid 0 is 1.200000 + 1.200000 = 2.400000
+
+ SUM for tid 81 , bid 0 is -0.400000 + -0.800000 = -1.200000
+
+ SUM for tid 82 , bid 0 is -0.800000 + -0.200000 = -1.000000
+
+ SUM for tid 83 , bid 0 is 0.400000 + -0.600000 = -0.200000
+
+ SUM for tid 84 , bid 0 is 2.600000 + 1.400000 = 4.000000
+
+ SUM for tid 85 , bid 0 is 2.000000 + 2.400000 = 4.400000
+
+ SUM for tid 86 , bid 0 is 0.000000 + -0.200000 = -0.200000
+
+ SUM for tid 87 , bid 0 is 1.000000 + 1.800000 = 2.800000
+
+ SUM for tid 88 , bid 0 is 1.000000 + 1.800000 = 2.800000
+
+ SUM for tid 89 , bid 0 is 0.400000 + -0.600000 = -0.200000
+
+ SUM for tid 90 , bid 0 is 2.000000 + 2.600000 = 4.600000
+
+ SUM for tid 91 , bid 0 is 1.800000 + 0.400000 = 2.200000
+
+ SUM for tid 92 , bid 0 is 1.200000 + -0.400000 = 0.800000
+
+ SUM for tid 93 , bid 0 is -0.800000 + 1.800000 = 1.000000
+
+ SUM for tid 94 , bid 0 is 0.600000 + -0.400000 = 0.200000
+
+ SUM for tid 95 , bid 0 is -0.600000 + 1.200000 = 0.600000
+
+ SUM for tid 224 , bid 0 is 2.800000 + 0.200000 = 3.000000
+
+ SUM for tid 225 , bid 0 is 0.200000 + 0.400000 = 0.600000
+
+ SUM for tid 226 , bid 0 is 0.200000 + -0.600000 = -0.400000
+
+ SUM for tid 227 , bid 0 is -0.600000 + -0.400000 = -1.000000
+
+ SUM for tid 228 , bid 0 is 2.000000 + 1.200000 = 3.200000
+
+ SUM for tid 229 , bid 0 is 2.400000 + 2.000000 = 4.400000
+
+ SUM for tid 230 , bid 0 is 0.400000 + 0.400000 = 0.800000
+
+ SUM for tid 231 , bid 0 is 1.800000 + 0.200000 = 2.000000
+
+ SUM for tid 232 , bid 0 is -0.600000 + -0.400000 = -1.000000
+
+ SUM for tid 233 , bid 0 is -0.400000 + 1.200000 = 0.800000
+
+ SUM for tid 234 , bid 0 is 0.800000 + 1.800000 = 2.600000
+
+ SUM for tid 235 , bid 0 is 2.200000 + 2.400000 = 4.600000
+
+ SUM for tid 236 , bid 0 is 2.800000 + 0.000000 = 2.800000
+
+ SUM for tid 237 , bid 0 is -1.000000 + 1.000000 = 0.000000
+
+ SUM for tid 238 , bid 0 is 2.000000 + -1.000000 = 1.000000
+
+ SUM for tid 239 , bid 0 is 0.400000 + 0.200000 = 0.600000
+
+ SUM for tid 240 , bid 0 is -0.200000 + -0.600000 = -0.800000
+
+ SUM for tid 241 , bid 0 is 1.400000 + 0.400000 = 1.800000
+
+ SUM for tid 242 , bid 0 is -0.400000 + -0.800000 = -1.200000
+
+ SUM for tid 243 , bid 0 is 1.600000 + 0.200000 = 1.800000
+
+ SUM for tid 244 , bid 0 is -0.400000 + -0.800000 = -1.200000
+
+ SUM for tid 245 , bid 0 is -0.800000 + 1.800000 = 1.000000
+
+ SUM for tid 246 , bid 0 is 1.200000 + 2.000000 = 3.200000
+
+ SUM for tid 247 , bid 0 is 0.200000 + -0.600000 = -0.400000
+
+ SUM for tid 248 , bid 0 is 0.000000 + 0.600000 = 0.600000
+
+ SUM for tid 249 , bid 0 is -0.800000 + 1.200000 = 0.400000
+
+ SUM for tid 250 , bid 0 is 0.000000 + 1.200000 = 1.200000
+
+ SUM for tid 251 , bid 0 is 2.200000 + 1.400000 = 3.600000
+
+ SUM for tid 252 , bid 0 is 2.400000 + 0.000000 = 2.400000
+
+ SUM for tid 253 , bid 0 is 0.400000 + 2.400000 = 2.800000
+
+ SUM for tid 254 , bid 0 is 1.600000 + 0.800000 = 2.400000
+
+ SUM for tid 255 , bid 0 is 2.400000 + -0.400000 = 2.000000
+
+ SUM for tid 160 , bid 0 is 0.000000 + -1.000000 = -1.000000
+
+ SUM for tid 161 , bid 0 is 0.200000 + 2.400000 = 2.600000
+
+ SUM for tid 162 , bid 0 is 0.200000 + 1.800000 = 2.000000
+
+ SUM for tid 163 , bid 0 is 0.800000 + 1.400000 = 2.200000
+
+ SUM for tid 164 , bid 0 is 2.000000 + -0.200000 = 1.800000
+
+ SUM for tid 165 , bid 0 is 2.800000 + 1.400000 = 4.200000
+
+ SUM for tid 166 , bid 0 is 0.000000 + 1.000000 = 1.000000
+
+ SUM for tid 167 , bid 0 is 2.600000 + 2.200000 = 4.800000
+
+ SUM for tid 168 , bid 0 is -0.800000 + 0.400000 = -0.400000
+
+ SUM for tid 169 , bid 0 is 2.600000 + 1.400000 = 4.000000
+
+ SUM for tid 170 , bid 0 is 1.600000 + -0.600000 = 1.000000
+
+ SUM for tid 171 , bid 0 is 0.400000 + 0.400000 = 0.800000
+
+ SUM for tid 172 , bid 0 is -0.200000 + -1.000000 = -1.200000
+
+ SUM for tid 173 , bid 0 is 2.600000 + 0.200000 = 2.800000
+
+ SUM for tid 174 , bid 0 is -1.000000 + 2.800000 = 1.800000
+
+ SUM for tid 175 , bid 0 is -0.200000 + 0.600000 = 0.400000
+
+ SUM for tid 176 , bid 0 is -0.200000 + 2.400000 = 2.200000
+
+ SUM for tid 177 , bid 0 is 1.200000 + 0.200000 = 1.400000
+
+ SUM for tid 178 , bid 0 is 1.600000 + -0.400000 = 1.200000
+
+ SUM for tid 179 , bid 0 is 2.600000 + -0.400000 = 2.200000
+
+ SUM for tid 180 , bid 0 is 0.800000 + -0.600000 = 0.200000
+
+ SUM for tid 181 , bid 0 is 1.600000 + 1.600000 = 3.200000
+
+ SUM for tid 182 , bid 0 is 1.000000 + 0.600000 = 1.600000
+
+ SUM for tid 183 , bid 0 is 0.800000 + 2.600000 = 3.400000
+
+ SUM for tid 184 , bid 0 is -1.000000 + 1.400000 = 0.400000
+
+ SUM for tid 185 , bid 0 is 1.200000 + 1.800000 = 3.000000
+
+ SUM for tid 186 , bid 0 is 0.000000 + 2.200000 = 2.200000
+
+ SUM for tid 187 , bid 0 is 0.800000 + 0.400000 = 1.200000
+
+ SUM for tid 188 , bid 0 is 2.400000 + 2.200000 = 4.600000
+
+ SUM for tid 189 , bid 0 is 2.000000 + -0.400000 = 1.600000
+
+ SUM for tid 190 , bid 0 is 0.000000 + 2.600000 = 2.600000
+
+ SUM for tid 191 , bid 0 is -0.600000 + 2.400000 = 1.800000
+
+ SUM for tid 32 , bid 0 is 1.000000 + -0.600000 = 0.400000
+
+ SUM for tid 33 , bid 0 is 2.200000 + 1.800000 = 4.000000
+
+ SUM for tid 34 , bid 0 is 1.200000 + 1.800000 = 3.000000
+
+ SUM for tid 35 , bid 0 is 0.200000 + 1.400000 = 1.600000
+
+ SUM for tid 36 , bid 0 is -0.600000 + 2.000000 = 1.400000
+
+ SUM for tid 37 , bid 0 is 1.800000 + 2.800000 = 4.600000
+
+ SUM for tid 38 , bid 0 is 1.400000 + 0.400000 = 1.800000
+
+ SUM for tid 39 , bid 0 is 0.200000 + 1.800000 = 2.000000
+
+ SUM for tid 40 , bid 0 is 0.000000 + 0.200000 = 0.200000
+
+ SUM for tid 41 , bid 0 is 0.800000 + 2.600000 = 3.400000
+
+ SUM for tid 42 , bid 0 is 0.400000 + 2.000000 = 2.400000
+
+ SUM for tid 43 , bid 0 is -0.800000 + 0.800000 = 0.000000
+
+ SUM for tid 44 , bid 0 is -0.600000 + 1.600000 = 1.000000
+
+ SUM for tid 45 , bid 0 is -0.600000 + -0.400000 = -1.000000
+
+ SUM for tid 46 , bid 0 is 1.600000 + 0.600000 = 2.200000
+
+ SUM for tid 47 , bid 0 is -0.400000 + 1.200000 = 0.800000
+
+ SUM for tid 48 , bid 0 is 2.400000 + 1.200000 = 3.600000
+
+ SUM for tid 49 , bid 0 is 0.400000 + 1.000000 = 1.400000
+
+ SUM for tid 50 , bid 0 is 1.200000 + 2.800000 = 4.000000
+
+ SUM for tid 51 , bid 0 is 2.400000 + -0.600000 = 1.800000
+
+ SUM for tid 52 , bid 0 is -0.400000 + 1.000000 = 0.600000
+
+ SUM for tid 53 , bid 0 is 2.000000 + 1.200000 = 3.200000
+
+ SUM for tid 54 , bid 0 is -0.600000 + 1.400000 = 0.800000
+
+ SUM for tid 55 , bid 0 is 0.200000 + -0.600000 = -0.400000
+
+ SUM for tid 56 , bid 0 is 2.800000 + 0.800000 = 3.600000
+
+ SUM for tid 57 , bid 0 is 2.000000 + 0.000000 = 2.000000
+
+ SUM for tid 58 , bid 0 is -0.600000 + 0.200000 = -0.400000
+
+ SUM for tid 59 , bid 0 is 1.600000 + 1.400000 = 3.000000
+
+ SUM for tid 60 , bid 0 is 1.400000 + -0.800000 = 0.600000
+
+ SUM for tid 61 , bid 0 is 1.200000 + -0.800000 = 0.400000
+
+ SUM for tid 62 , bid 0 is 1.800000 + 2.200000 = 4.000000
+
+ SUM for tid 63 , bid 0 is -0.600000 + 2.000000 = 1.400000
+
+ SUM for tid 0 , bid 0 is 2.000000 + -0.800000 = 1.200000
+
+ SUM for tid 1 , bid 0 is 0.000000 + 0.000000 = 0.000000
+
+ SUM for tid 2 , bid 0 is 0.200000 + -1.000000 = -0.800000
+
+ SUM for tid 3 , bid 0 is 1.000000 + 1.000000 = 2.000000
+
+ SUM for tid 4 , bid 0 is -0.200000 + 1.000000 = 0.800000
+
+ SUM for tid 5 , bid 0 is 0.200000 + -1.000000 = -0.800000
+
+ SUM for tid 6 , bid 0 is 1.200000 + 0.000000 = 1.200000
+
+ SUM for tid 7 , bid 0 is 1.800000 + -0.400000 = 1.400000
+
+ SUM for tid 8 , bid 0 is 1.400000 + 2.800000 = 4.200000
+
+ SUM for tid 9 , bid 0 is 1.200000 + 2.000000 = 3.200000
+
+ SUM for tid 10 , bid 0 is -0.200000 + 1.200000 = 1.000000
+
+ SUM for tid 11 , bid 0 is -0.800000 + -0.800000 = -1.600000
+
+ SUM for tid 12 , bid 0 is -0.200000 + -0.600000 = -0.800000
+
+ SUM for tid 13 , bid 0 is -0.800000 + -0.400000 = -1.200000
+
+ SUM for tid 14 , bid 0 is -0.400000 + 2.200000 = 1.800000
+
+ SUM for tid 15 , bid 0 is 1.200000 + 0.400000 = 1.600000
+
+ SUM for tid 16 , bid 0 is 0.600000 + 2.400000 = 3.000000
+
+ SUM for tid 17 , bid 0 is -0.400000 + 0.400000 = 0.000000
+
+ SUM for tid 18 , bid 0 is -0.600000 + 1.000000 = 0.400000
+
+ SUM for tid 19 , bid 0 is 0.600000 + 0.600000 = 1.200000
+
+ SUM for tid 20 , bid 0 is -1.000000 + 2.800000 = 1.800000
+
+ SUM for tid 21 , bid 0 is 2.200000 + 0.600000 = 2.800000
+
+ SUM for tid 22 , bid 0 is -0.200000 + -1.000000 = -1.200000
+
+ SUM for tid 23 , bid 0 is -0.200000 + 1.000000 = 0.800000
+
+ SUM for tid 24 , bid 0 is -0.400000 + 2.800000 = 2.400000
+
+ SUM for tid 25 , bid 0 is -0.200000 + 2.600000 = 2.400000
+
+ SUM for tid 26 , bid 0 is -0.800000 + -1.000000 = -1.800000
+
+ SUM for tid 27 , bid 0 is -0.400000 + -0.200000 = -0.600000
+
+ SUM for tid 28 , bid 0 is 1.600000 + 1.000000 = 2.600000
+
+ SUM for tid 29 , bid 0 is -0.200000 + 2.200000 = 2.000000
+
+ SUM for tid 30 , bid 0 is 0.800000 + -0.600000 = 0.200000
+
+ SUM for tid 31 , bid 0 is -0.800000 + 1.400000 = 0.600000
+
+ SUM for tid 128 , bid 0 is -0.400000 + 2.000000 = 1.600000
+
+ SUM for tid 129 , bid 0 is 1.400000 + 2.600000 = 4.000000
+
+ SUM for tid 130 , bid 0 is 2.200000 + -0.600000 = 1.600000
+
+ SUM for tid 131 , bid 0 is 0.800000 + -0.200000 = 0.600000
+
+ SUM for tid 132 , bid 0 is 1.400000 + -1.000000 = 0.400000
+
+ SUM for tid 133 , bid 0 is 0.600000 + 0.400000 = 1.000000
+
+ SUM for tid 134 , bid 0 is -0.800000 + 2.600000 = 1.800000
+
+ SUM for tid 135 , bid 0 is 2.000000 + 2.400000 = 4.400000
+
+ SUM for tid 136 , bid 0 is -0.400000 + -1.000000 = -1.400000
+
+ SUM for tid 137 , bid 0 is -0.600000 + -0.600000 = -1.200000
+
+ SUM for tid 138 , bid 0 is 1.600000 + -0.600000 = 1.000000
+
+ SUM for tid 139 , bid 0 is -0.600000 + 0.200000 = -0.400000
+
+ SUM for tid 140 , bid 0 is 1.800000 + -1.000000 = 0.800000
+
+ SUM for tid 141 , bid 0 is 1.800000 + 2.200000 = 4.000000
+
+ SUM for tid 142 , bid 0 is 0.000000 + 1.200000 = 1.200000
+
+ SUM for tid 143 , bid 0 is -0.800000 + 1.200000 = 0.400000
+
+ SUM for tid 144 , bid 0 is 0.600000 + 2.000000 = 2.600000
+
+ SUM for tid 145 , bid 0 is 0.200000 + 1.200000 = 1.400000
+
+ SUM for tid 146 , bid 0 is 2.600000 + 2.000000 = 4.600000
+
+ SUM for tid 147 , bid 0 is 2.400000 + 2.000000 = 4.400000
+
+ SUM for tid 148 , bid 0 is 1.600000 + 1.800000 = 3.400000
+
+ SUM for tid 149 , bid 0 is 0.200000 + 2.200000 = 2.400000
+
+ SUM for tid 150 , bid 0 is 0.600000 + 2.400000 = 3.000000
+
+ SUM for tid 151 , bid 0 is -1.000000 + 1.400000 = 0.400000
+
+ SUM for tid 152 , bid 0 is -1.000000 + -0.200000 = -1.200000
+
+ SUM for tid 153 , bid 0 is 1.800000 + 2.800000 = 4.600000
+
+ SUM for tid 154 , bid 0 is 0.800000 + 0.200000 = 1.000000
+
+ SUM for tid 155 , bid 0 is 2.200000 + 2.400000 = 4.600000
+
+ SUM for tid 156 , bid 0 is 0.800000 + -0.400000 = 0.400000
+
+ SUM for tid 157 , bid 0 is 1.600000 + 1.000000 = 2.600000
+
+ SUM for tid 158 , bid 0 is 1.000000 + 2.000000 = 3.000000
+
+ SUM for tid 159 , bid 0 is -0.200000 + 2.600000 = 2.400000
+
+ SUM for tid 192 , bid 0 is 1.800000 + -1.000000 = 0.800000
+
+ SUM for tid 193 , bid 0 is 1.200000 + 1.400000 = 2.600000
+
+ SUM for tid 194 , bid 0 is 1.400000 + -0.800000 = 0.600000
+
+ SUM for tid 195 , bid 0 is -0.800000 + 0.000000 = -0.800000
+
+ SUM for tid 196 , bid 0 is -0.400000 + 0.000000 = -0.400000
+
+ SUM for tid 197 , bid 0 is 0.800000 + 1.200000 = 2.000000
+
+ SUM for tid 198 , bid 0 is 1.200000 + 1.600000 = 2.800000
+
+ SUM for tid 199 , bid 0 is -0.200000 + -0.200000 = -0.400000
+
+ SUM for tid 200 , bid 0 is 2.800000 + 2.000000 = 4.800000
+
+ SUM for tid 201 , bid 0 is -0.200000 + 2.200000 = 2.000000
+
+ SUM for tid 202 , bid 0 is -0.200000 + 1.200000 = 1.000000
+
+ SUM for tid 203 , bid 0 is 2.000000 + 2.200000 = 4.200000
+
+ SUM for tid 204 , bid 0 is -0.600000 + 1.800000 = 1.200000
+
+ SUM for tid 205 , bid 0 is -0.200000 + -0.600000 = -0.800000
+
+ SUM for tid 206 , bid 0 is 2.800000 + 2.200000 = 5.000000
+
+ SUM for tid 207 , bid 0 is 0.400000 + 1.200000 = 1.600000
+
+ SUM for tid 208 , bid 0 is 0.400000 + -1.000000 = -0.600000
+
+ SUM for tid 209 , bid 0 is -0.200000 + 2.800000 = 2.600000
+
+ SUM for tid 210 , bid 0 is 2.400000 + 0.200000 = 2.600000
+
+ SUM for tid 211 , bid 0 is 2.200000 + -0.400000 = 1.800000
+
+ SUM for tid 212 , bid 0 is 2.400000 + -0.200000 = 2.200000
+
+ SUM for tid 213 , bid 0 is 2.800000 + 1.800000 = 4.600000
+
+ SUM for tid 214 , bid 0 is 0.200000 + 1.600000 = 1.800000
+
+ SUM for tid 215 , bid 0 is 2.400000 + 0.600000 = 3.000000
+
+ SUM for tid 216 , bid 0 is 1.000000 + -1.000000 = 0.000000
+
+ SUM for tid 217 , bid 0 is -0.400000 + -0.800000 = -1.200000
+
+ SUM for tid 218 , bid 0 is 2.600000 + 2.200000 = 4.800000
+
+ SUM for tid 219 , bid 0 is 0.400000 + 2.400000 = 2.800000
+
+ SUM for tid 220 , bid 0 is 1.200000 + -0.200000 = 1.000000
+
+ SUM for tid 221 , bid 0 is 2.200000 + 1.800000 = 4.000000
+
+ SUM for tid 222 , bid 0 is -0.600000 + 0.200000 = -0.400000
+
+ SUM for tid 223 , bid 0 is 0.000000 + 0.000000 = 0.000000
+
+ SUM for tid 32 , bid 3 is -0.400000 + 1.600000 = 1.200000
+
+ SUM for tid 33 , bid 3 is 2.200000 + -0.800000 = 1.400000
+
+ SUM for tid 34 , bid 3 is 2.200000 + 0.800000 = 3.000000
+
+ SUM for tid 35 , bid 3 is 2.000000 + 1.800000 = 3.800000
+
+ SUM for tid 36 , bid 3 is -0.800000 + 1.400000 = 0.600000
+
+ SUM for tid 37 , bid 3 is 2.000000 + -1.000000 = 1.000000
+
+ SUM for tid 38 , bid 3 is -0.800000 + 0.600000 = -0.200000
+
+ SUM for tid 39 , bid 3 is -0.800000 + 2.800000 = 2.000000
+
+ SUM for tid 40 , bid 3 is 2.000000 + 1.400000 = 3.400000
+
+ SUM for tid 41 , bid 3 is 2.200000 + 1.200000 = 3.400000
+
+ SUM for tid 42 , bid 3 is 2.200000 + 2.600000 = 4.800000
+
+ SUM for tid 43 , bid 3 is -0.600000 + -1.000000 = -1.600000
+
+ SUM for tid 44 , bid 3 is 1.400000 + 1.200000 = 2.600000
+
+ SUM for tid 45 , bid 3 is 2.200000 + 2.200000 = 4.400000
+
+ SUM for tid 46 , bid 3 is 0.600000 + -0.200000 = 0.400000
+
+ SUM for tid 47 , bid 3 is 2.400000 + -1.000000 = 1.400000
+
+ SUM for tid 48 , bid 3 is -0.200000 + 2.400000 = 2.200000
+
+ SUM for tid 49 , bid 3 is 1.400000 + 1.800000 = 3.200000
+
+ SUM for tid 50 , bid 3 is 2.400000 + 0.800000 = 3.200000
+
+ SUM for tid 51 , bid 3 is -0.800000 + 0.000000 = -0.800000
+
+ SUM for tid 52 , bid 3 is -1.000000 + 2.200000 = 1.200000
+
+ SUM for tid 53 , bid 3 is 1.400000 + 0.200000 = 1.600000
+
+ SUM for tid 54 , bid 3 is 1.000000 + 0.200000 = 1.200000
+
+ SUM for tid 55 , bid 3 is 2.800000 + 2.000000 = 4.800000
+
+ SUM for tid 56 , bid 3 is 0.000000 + -0.400000 = -0.400000
+
+ SUM for tid 57 , bid 3 is 2.800000 + 0.000000 = 2.800000
+
+ SUM for tid 58 , bid 3 is 0.400000 + 2.800000 = 3.200000
+
+ SUM for tid 59 , bid 3 is 1.800000 + 1.200000 = 3.000000
+
+ SUM for tid 60 , bid 3 is 1.200000 + -0.600000 = 0.600000
+
+ SUM for tid 61 , bid 3 is 2.000000 + 1.400000 = 3.400000
+
+ SUM for tid 62 , bid 3 is 2.200000 + 0.600000 = 2.800000
+
+ SUM for tid 63 , bid 3 is 0.200000 + 0.400000 = 0.600000
+
+ SUM for tid 96 , bid 3 is 2.800000 + 0.800000 = 3.600000
+
+ SUM for tid 97 , bid 3 is 1.600000 + 0.800000 = 2.400000
+
+ SUM for tid 98 , bid 3 is 2.000000 + -0.600000 = 1.400000
+
+ SUM for tid 99 , bid 3 is -1.000000 + 1.200000 = 0.200000
+
+ SUM for tid 100 , bid 3 is 0.800000 + 1.200000 = 2.000000
+
+ SUM for tid 101 , bid 3 is 1.400000 + -0.400000 = 1.000000
+
+ SUM for tid 102 , bid 3 is 0.600000 + 0.000000 = 0.600000
+
+ SUM for tid 103 , bid 3 is 1.600000 + 2.400000 = 4.000000
+
+ SUM for tid 104 , bid 3 is 2.600000 + -0.400000 = 2.200000
+
+ SUM for tid 105 , bid 3 is 2.600000 + 2.800000 = 5.400000
+
+ SUM for tid 106 , bid 3 is -0.800000 + 0.400000 = -0.400000
+
+ SUM for tid 107 , bid 3 is -0.800000 + 2.600000 = 1.800000
+
+ SUM for tid 108 , bid 3 is 0.600000 + 2.600000 = 3.200000
+
+ SUM for tid 109 , bid 3 is 0.200000 + 2.400000 = 2.600000
+
+ SUM for tid 110 , bid 3 is 2.800000 + 2.000000 = 4.800000
+
+ SUM for tid 111 , bid 3 is 1.200000 + -0.600000 = 0.600000
+
+ SUM for tid 112 , bid 3 is 0.600000 + 2.200000 = 2.800000
+
+ SUM for tid 113 , bid 3 is 2.800000 + -0.200000 = 2.600000
+
+ SUM for tid 114 , bid 3 is 0.200000 + 2.000000 = 2.200000
+
+ SUM for tid 115 , bid 3 is 2.000000 + -0.800000 = 1.200000
+
+ SUM for tid 116 , bid 3 is 1.600000 + -0.200000 = 1.400000
+
+ SUM for tid 117 , bid 3 is 0.600000 + -0.400000 = 0.200000
+
+ SUM for tid 118 , bid 3 is 2.800000 + -0.800000 = 2.000000
+
+ SUM for tid 119 , bid 3 is 2.000000 + 2.600000 = 4.600000
+
+ SUM for tid 120 , bid 3 is -0.800000 + -0.600000 = -1.400000
+
+ SUM for tid 121 , bid 3 is 2.400000 + -0.200000 = 2.200000
+
+ SUM for tid 122 , bid 3 is -1.000000 + 0.000000 = -1.000000
+
+ SUM for tid 123 , bid 3 is 0.800000 + 1.600000 = 2.400000
+
+ SUM for tid 124 , bid 3 is 1.400000 + 2.200000 = 3.600000
+
+ SUM for tid 125 , bid 3 is 1.200000 + 1.400000 = 2.600000
+
+ SUM for tid 126 , bid 3 is -1.000000 + 2.600000 = 1.600000
+
+ SUM for tid 127 , bid 3 is 1.200000 + 2.600000 = 3.800000
+
+ SUM for tid 192 , bid 3 is 1.200000 + 0.600000 = 1.800000
+
+ SUM for tid 193 , bid 3 is 2.200000 + -0.600000 = 1.600000
+
+ SUM for tid 194 , bid 3 is 2.800000 + -0.200000 = 2.600000
+
+ SUM for tid 195 , bid 3 is 2.200000 + 0.600000 = 2.800000
+
+ SUM for tid 196 , bid 3 is 1.600000 + 0.000000 = 1.600000
+
+ SUM for tid 197 , bid 3 is 1.600000 + 1.400000 = 3.000000
+
+ SUM for tid 198 , bid 3 is 0.400000 + -0.400000 = 0.000000
+
+ SUM for tid 199 , bid 3 is 1.600000 + 0.800000 = 2.400000
+
+ SUM for tid 200 , bid 3 is 2.800000 + -0.600000 = 2.200000
+
+ SUM for tid 201 , bid 3 is 0.600000 + 1.800000 = 2.400000
+
+ SUM for tid 202 , bid 3 is 2.200000 + 1.400000 = 3.600000
+
+ SUM for tid 203 , bid 3 is 0.400000 + 0.800000 = 1.200000
+
+ SUM for tid 204 , bid 3 is 2.000000 + -0.200000 = 1.800000
+
+ SUM for tid 205 , bid 3 is 0.800000 + 2.600000 = 3.400000
+
+ SUM for tid 206 , bid 3 is 2.600000 + 0.800000 = 3.400000
+
+ SUM for tid 207 , bid 3 is 0.800000 + -1.000000 = -0.200000
+
+ SUM for tid 208 , bid 3 is 1.400000 + 2.800000 = 4.200000
+
+ SUM for tid 209 , bid 3 is 0.800000 + 2.200000 = 3.000000
+
+ SUM for tid 210 , bid 3 is 2.200000 + 0.000000 = 2.200000
+
+ SUM for tid 211 , bid 3 is 1.400000 + 0.600000 = 2.000000
+
+ SUM for tid 212 , bid 3 is 2.000000 + 2.600000 = 4.600000
+
+ SUM for tid 213 , bid 3 is 2.400000 + 1.600000 = 4.000000
+
+ SUM for tid 214 , bid 3 is 0.600000 + -0.400000 = 0.200000
+
+ SUM for tid 215 , bid 3 is 0.600000 + 1.800000 = 2.400000
+
+ SUM for tid 216 , bid 3 is 1.000000 + 2.400000 = 3.400000
+
+ SUM for tid 217 , bid 3 is 1.800000 + 2.800000 = 4.600000
+
+ SUM for tid 218 , bid 3 is 0.600000 + 2.200000 = 2.800000
+
+ SUM for tid 219 , bid 3 is 0.200000 + 0.000000 = 0.200000
+
+ SUM for tid 220 , bid 3 is 2.800000 + 0.200000 = 3.000000
+
+ SUM for tid 221 , bid 3 is -0.400000 + 0.200000 = -0.200000
+
+ SUM for tid 222 , bid 3 is 1.800000 + 1.400000 = 3.200000
+
+ SUM for tid 223 , bid 3 is 1.000000 + 0.400000 = 1.400000
+
+ SUM for tid 160 , bid 3 is 2.800000 + 0.600000 = 3.400000
+
+ SUM for tid 161 , bid 3 is 1.800000 + -0.800000 = 1.000000
+
+ SUM for tid 162 , bid 3 is -0.800000 + -1.000000 = -1.800000
+
+ SUM for tid 163 , bid 3 is 1.200000 + 2.200000 = 3.400000
+
+ SUM for tid 164 , bid 3 is 0.000000 + 0.600000 = 0.600000
+
+ SUM for tid 165 , bid 3 is -0.200000 + -0.400000 = -0.600000
+
+ SUM for tid 166 , bid 3 is -0.600000 + 0.600000 = 0.000000
+
+ SUM for tid 167 , bid 3 is 2.800000 + 1.800000 = 4.600000
+
+ SUM for tid 168 , bid 3 is 0.600000 + -0.200000 = 0.400000
+
+ SUM for tid 169 , bid 3 is 1.600000 + 1.000000 = 2.600000
+
+ SUM for tid 170 , bid 3 is -0.800000 + 1.200000 = 0.400000
+
+ SUM for tid 171 , bid 3 is 1.000000 + 1.200000 = 2.200000
+
+ SUM for tid 172 , bid 3 is 2.200000 + 2.000000 = 4.200000
+
+ SUM for tid 173 , bid 3 is 1.800000 + 1.000000 = 2.800000
+
+ SUM for tid 174 , bid 3 is 1.600000 + 1.600000 = 3.200000
+
+ SUM for tid 175 , bid 3 is 1.200000 + 0.600000 = 1.800000
+
+ SUM for tid 176 , bid 3 is 1.800000 + -0.200000 = 1.600000
+
+ SUM for tid 177 , bid 3 is 1.200000 + -0.800000 = 0.400000
+
+ SUM for tid 178 , bid 3 is 2.800000 + 0.200000 = 3.000000
+
+ SUM for tid 179 , bid 3 is 2.000000 + 0.000000 = 2.000000
+
+ SUM for tid 180 , bid 3 is -1.000000 + 0.800000 = -0.200000
+
+ SUM for tid 181 , bid 3 is 1.800000 + -0.600000 = 1.200000
+
+ SUM for tid 182 , bid 3 is 0.800000 + 2.200000 = 3.000000
+
+ SUM for tid 183 , bid 3 is 2.000000 + -0.600000 = 1.400000
+
+ SUM for tid 184 , bid 3 is -0.800000 + 2.200000 = 1.400000
+
+ SUM for tid 185 , bid 3 is 1.400000 + 1.400000 = 2.800000
+
+ SUM for tid 186 , bid 3 is 1.800000 + 2.200000 = 4.000000
+
+ SUM for tid 187 , bid 3 is 2.800000 + -0.600000 = 2.200000
+
+ SUM for tid 188 , bid 3 is 2.200000 + 0.400000 = 2.600000
+
+ SUM for tid 189 , bid 3 is 0.000000 + 0.400000 = 0.400000
+
+ SUM for tid 190 , bid 3 is -0.400000 + 0.800000 = 0.400000
+
+ SUM for tid 191 , bid 3 is 0.600000 + 0.400000 = 1.000000
+
+ SUM for tid 224 , bid 3 is 1.200000 + 0.600000 = 1.800000
+
+ SUM for tid 225 , bid 3 is 0.200000 + 0.600000 = 0.800000
+
+ SUM for tid 226 , bid 3 is 2.800000 + 2.000000 = 4.800000
+
+ SUM for tid 227 , bid 3 is -0.200000 + 0.000000 = -0.200000
+
+ SUM for tid 228 , bid 3 is 1.200000 + 1.400000 = 2.600000
+
+ SUM for tid 229 , bid 3 is 2.600000 + 2.600000 = 5.200000
+
+ SUM for tid 230 , bid 3 is 1.000000 + 0.200000 = 1.200000
+
+ SUM for tid 231 , bid 3 is 1.000000 + 0.200000 = 1.200000
+
+ SUM for tid 232 , bid 3 is 0.400000 + -0.200000 = 0.200000
+
+ SUM for tid 233 , bid 3 is 0.200000 + 2.800000 = 3.000000
+
+ SUM for tid 234 , bid 3 is 2.600000 + 2.000000 = 4.600000
+
+ SUM for tid 235 , bid 3 is -0.600000 + -1.000000 = -1.600000
+
+ SUM for tid 236 , bid 3 is 0.400000 + 0.800000 = 1.200000
+
+ SUM for tid 237 , bid 3 is 0.600000 + 0.000000 = 0.600000
+
+ SUM for tid 238 , bid 3 is -0.400000 + -1.000000 = -1.400000
+
+ SUM for tid 239 , bid 3 is 2.800000 + 0.600000 = 3.400000
+
+ SUM for tid 240 , bid 3 is 1.000000 + 1.600000 = 2.600000
+
+ SUM for tid 241 , bid 3 is -1.000000 + 2.400000 = 1.400000
+
+ SUM for tid 242 , bid 3 is -0.400000 + 2.200000 = 1.800000
+
+ SUM for tid 243 , bid 3 is 2.400000 + 1.200000 = 3.600000
+
+ SUM for tid 244 , bid 3 is 0.800000 + -0.600000 = 0.200000
+
+ SUM for tid 245 , bid 3 is 1.200000 + 1.200000 = 2.400000
+
+ SUM for tid 246 , bid 3 is 0.200000 + 0.200000 = 0.400000
+
+ SUM for tid 247 , bid 3 is 2.800000 + -1.000000 = 1.800000
+
+ SUM for tid 248 , bid 3 is 2.600000 + 1.000000 = 3.600000
+
+ SUM for tid 249 , bid 3 is 1.800000 + 1.800000 = 3.600000
+
+ SUM for tid 250 , bid 3 is 2.600000 + 2.400000 = 5.000000
+
+ SUM for tid 251 , bid 3 is 2.400000 + 0.800000 = 3.200000
+
+ SUM for tid 252 , bid 3 is 2.400000 + 1.400000 = 3.800000
+
+ SUM for tid 253 , bid 3 is 1.400000 + 0.800000 = 2.200000
+
+ SUM for tid 254 , bid 3 is -1.000000 + 2.200000 = 1.200000
+
+ SUM for tid 255 , bid 3 is 0.600000 + 1.400000 = 2.000000
+
+ SUM for tid 64 , bid 3 is -0.400000 + 1.600000 = 1.200000
+
+ SUM for tid 65 , bid 3 is 1.600000 + 2.400000 = 4.000000
+
+ SUM for tid 66 , bid 3 is -0.600000 + -0.600000 = -1.200000
+
+ SUM for tid 67 , bid 3 is -0.200000 + 2.400000 = 2.200000
+
+ SUM for tid 68 , bid 3 is -1.000000 + 1.000000 = 0.000000
+
+ SUM for tid 69 , bid 3 is 2.000000 + -0.600000 = 1.400000
+
+ SUM for tid 70 , bid 3 is 2.400000 + 0.800000 = 3.200000
+
+ SUM for tid 71 , bid 3 is 0.600000 + -0.600000 = 0.000000
+
+ SUM for tid 72 , bid 3 is 1.400000 + 0.200000 = 1.600000
+
+ SUM for tid 73 , bid 3 is 1.800000 + 0.400000 = 2.200000
+
+ SUM for tid 74 , bid 3 is 1.000000 + 1.800000 = 2.800000
+
+ SUM for tid 75 , bid 3 is 2.200000 + 2.400000 = 4.600000
+
+ SUM for tid 76 , bid 3 is -0.600000 + 2.000000 = 1.400000
+
+ SUM for tid 77 , bid 3 is 2.600000 + 2.600000 = 5.200000
+
+ SUM for tid 78 , bid 3 is 0.000000 + 2.600000 = 2.600000
+
+ SUM for tid 79 , bid 3 is 2.600000 + -0.200000 = 2.400000
+
+ SUM for tid 80 , bid 3 is 1.200000 + -0.200000 = 1.000000
+
+ SUM for tid 81 , bid 3 is -0.600000 + 2.800000 = 2.200000
+
+ SUM for tid 82 , bid 3 is -1.000000 + 0.800000 = -0.200000
+
+ SUM for tid 83 , bid 3 is -0.400000 + -1.000000 = -1.400000
+
+ SUM for tid 84 , bid 3 is 2.000000 + 0.000000 = 2.000000
+
+ SUM for tid 85 , bid 3 is -0.600000 + 0.600000 = 0.000000
+
+ SUM for tid 86 , bid 3 is -0.600000 + 0.600000 = 0.000000
+
+ SUM for tid 87 , bid 3 is 1.400000 + -1.000000 = 0.400000
+
+ SUM for tid 88 , bid 3 is -0.800000 + 1.600000 = 0.800000
+
+ SUM for tid 89 , bid 3 is -0.800000 + 0.400000 = -0.400000
+
+ SUM for tid 90 , bid 3 is 0.200000 + 1.200000 = 1.400000
+
+ SUM for tid 91 , bid 3 is 1.600000 + 0.400000 = 2.000000
+
+ SUM for tid 92 , bid 3 is 2.200000 + 2.800000 = 5.000000
+
+ SUM for tid 93 , bid 3 is 1.800000 + 1.400000 = 3.200000
+
+ SUM for tid 94 , bid 3 is 2.800000 + 2.000000 = 4.800000
+
+ SUM for tid 95 , bid 3 is 2.800000 + 0.000000 = 2.800000
+
+ SUM for tid 0 , bid 3 is -0.800000 + 2.200000 = 1.400000
+
+ SUM for tid 1 , bid 3 is 1.200000 + 0.000000 = 1.200000
+
+ SUM for tid 2 , bid 3 is -1.000000 + 2.800000 = 1.800000
+
+ SUM for tid 3 , bid 3 is 0.200000 + -0.200000 = 0.000000
+
+ SUM for tid 4 , bid 3 is 1.400000 + -0.800000 = 0.600000
+
+ SUM for tid 5 , bid 3 is 1.600000 + 1.200000 = 2.800000
+
+ SUM for tid 6 , bid 3 is 0.400000 + 1.200000 = 1.600000
+
+ SUM for tid 7 , bid 3 is 1.800000 + 1.800000 = 3.600000
+
+ SUM for tid 8 , bid 3 is 0.600000 + 0.400000 = 1.000000
+
+ SUM for tid 9 , bid 3 is -1.000000 + 2.800000 = 1.800000
+
+ SUM for tid 10 , bid 3 is 2.000000 + -0.400000 = 1.600000
+
+ SUM for tid 11 , bid 3 is 2.000000 + 0.400000 = 2.400000
+
+ SUM for tid 12 , bid 3 is 1.800000 + 2.200000 = 4.000000
+
+ SUM for tid 13 , bid 3 is -0.400000 + 0.600000 = 0.200000
+
+ SUM for tid 14 , bid 3 is -1.000000 + 2.400000 = 1.400000
+
+ SUM for tid 15 , bid 3 is 1.800000 + 1.400000 = 3.200000
+
+ SUM for tid 16 , bid 3 is 1.600000 + 2.400000 = 4.000000
+
+ SUM for tid 17 , bid 3 is 2.000000 + 0.800000 = 2.800000
+
+ SUM for tid 18 , bid 3 is -0.200000 + 0.800000 = 0.600000
+
+ SUM for tid 19 , bid 3 is 0.600000 + 0.600000 = 1.200000
+
+ SUM for tid 20 , bid 3 is 0.000000 + 2.200000 = 2.200000
+
+ SUM for tid 21 , bid 3 is 0.400000 + 1.000000 = 1.400000
+
+ SUM for tid 22 , bid 3 is 2.000000 + 0.000000 = 2.000000
+
+ SUM for tid 23 , bid 3 is 0.600000 + 0.800000 = 1.400000
+
+ SUM for tid 24 , bid 3 is 0.400000 + 0.400000 = 0.800000
+
+ SUM for tid 25 , bid 3 is -1.000000 + 2.400000 = 1.400000
+
+ SUM for tid 26 , bid 3 is 2.400000 + 0.400000 = 2.800000
+
+ SUM for tid 27 , bid 3 is 0.600000 + -0.400000 = 0.200000
+
+ SUM for tid 28 , bid 3 is 2.400000 + 0.600000 = 3.000000
+
+ SUM for tid 29 , bid 3 is 1.400000 + 2.200000 = 3.600000
+
+ SUM for tid 30 , bid 3 is 2.200000 + -0.800000 = 1.400000
+
+ SUM for tid 31 , bid 3 is 1.000000 + 0.000000 = 1.000000
+
+ SUM for tid 128 , bid 3 is 2.400000 + -0.800000 = 1.600000
+
+ SUM for tid 129 , bid 3 is 2.000000 + 1.600000 = 3.600000
+
+ SUM for tid 130 , bid 3 is -0.400000 + 0.800000 = 0.400000
+
+ SUM for tid 131 , bid 3 is 0.200000 + 1.600000 = 1.800000
+
+ SUM for tid 132 , bid 3 is -1.000000 + 2.200000 = 1.200000
+
+ SUM for tid 133 , bid 3 is 1.200000 + 2.000000 = 3.200000
+
+ SUM for tid 134 , bid 3 is 1.200000 + -0.600000 = 0.600000
+
+ SUM for tid 135 , bid 3 is 2.600000 + 2.800000 = 5.400000
+
+ SUM for tid 136 , bid 3 is -0.800000 + 0.200000 = -0.600000
+
+ SUM for tid 137 , bid 3 is -0.200000 + 0.800000 = 0.600000
+
+ SUM for tid 138 , bid 3 is 1.200000 + 1.000000 = 2.200000
+
+ SUM for tid 139 , bid 3 is 1.000000 + -0.200000 = 0.800000
+
+ SUM for tid 140 , bid 3 is 1.000000 + 0.200000 = 1.200000
+
+ SUM for tid 141 , bid 3 is 1.200000 + 0.000000 = 1.200000
+
+ SUM for tid 142 , bid 3 is 1.600000 + 2.800000 = 4.400000
+
+ SUM for tid 143 , bid 3 is 1.000000 + -0.600000 = 0.400000
+
+ SUM for tid 144 , bid 3 is -0.600000 + -0.800000 = -1.400000
+
+ SUM for tid 145 , bid 3 is -1.000000 + 1.800000 = 0.800000
+
+ SUM for tid 146 , bid 3 is 2.600000 + 2.000000 = 4.600000
+
+ SUM for tid 147 , bid 3 is 0.600000 + 0.200000 = 0.800000
+
+ SUM for tid 148 , bid 3 is -1.000000 + 0.800000 = -0.200000
+
+ SUM for tid 149 , bid 3 is 2.400000 + 2.200000 = 4.600000
+
+ SUM for tid 150 , bid 3 is -0.400000 + 2.200000 = 1.800000
+
+ SUM for tid 151 , bid 3 is -0.600000 + 1.200000 = 0.600000
+
+ SUM for tid 152 , bid 3 is 2.000000 + 1.600000 = 3.600000
+
+ SUM for tid 153 , bid 3 is 2.000000 + -0.800000 = 1.200000
+
+ SUM for tid 154 , bid 3 is 1.200000 + -0.200000 = 1.000000
+
+ SUM for tid 155 , bid 3 is 0.400000 + -0.800000 = -0.400000
+
+ SUM for tid 156 , bid 3 is 0.200000 + 0.200000 = 0.400000
+
+ SUM for tid 157 , bid 3 is 1.400000 + 2.000000 = 3.400000
+
+ SUM for tid 158 , bid 3 is 1.000000 + 2.800000 = 3.800000
+
+ SUM for tid 159 , bid 3 is -0.400000 + 0.400000 = 0.000000
+
+ SUM for tid 224 , bid 2 is 2.000000 + -0.600000 = 1.400000
+
+ SUM for tid 225 , bid 2 is 0.000000 + 0.000000 = 0.000000
+
+ SUM for tid 226 , bid 2 is 2.200000 + 2.000000 = 4.200000
+
+ SUM for tid 227 , bid 2 is 1.400000 + 0.800000 = 2.200000
+
+ SUM for tid 228 , bid 2 is 1.400000 + 2.000000 = 3.400000
+
+ SUM for tid 229 , bid 2 is 0.800000 + -0.200000 = 0.600000
+
+ SUM for tid 230 , bid 2 is 1.600000 + 1.200000 = 2.800000
+
+ SUM for tid 231 , bid 2 is -0.800000 + 0.400000 = -0.400000
+
+ SUM for tid 232 , bid 2 is -0.800000 + -0.800000 = -1.600000
+
+ SUM for tid 233 , bid 2 is -0.400000 + -0.200000 = -0.600000
+
+ SUM for tid 234 , bid 2 is 1.600000 + 0.600000 = 2.200000
+
+ SUM for tid 235 , bid 2 is -0.800000 + 0.800000 = 0.000000
+
+ SUM for tid 236 , bid 2 is 1.800000 + 2.800000 = 4.600000
+
+ SUM for tid 237 , bid 2 is 1.800000 + -0.200000 = 1.600000
+
+ SUM for tid 238 , bid 2 is 0.600000 + 0.000000 = 0.600000
+
+ SUM for tid 239 , bid 2 is 0.000000 + 1.000000 = 1.000000
+
+ SUM for tid 240 , bid 2 is 0.600000 + 2.200000 = 2.800000
+
+ SUM for tid 241 , bid 2 is 2.400000 + 0.800000 = 3.200000
+
+ SUM for tid 242 , bid 2 is 2.000000 + 1.200000 = 3.200000
+
+ SUM for tid 243 , bid 2 is 2.400000 + 0.000000 = 2.400000
+
+ SUM for tid 244 , bid 2 is -0.400000 + 2.800000 = 2.400000
+
+ SUM for tid 245 , bid 2 is 2.600000 + 0.400000 = 3.000000
+
+ SUM for tid 246 , bid 2 is -0.400000 + -1.000000 = -1.400000
+
+ SUM for tid 247 , bid 2 is 1.800000 + 2.200000 = 4.000000
+
+ SUM for tid 248 , bid 2 is 1.200000 + 1.600000 = 2.800000
+
+ SUM for tid 249 , bid 2 is 0.400000 + 0.000000 = 0.400000
+
+ SUM for tid 250 , bid 2 is 0.000000 + -1.000000 = -1.000000
+
+ SUM for tid 251 , bid 2 is 2.400000 + 0.000000 = 2.400000
+
+ SUM for tid 252 , bid 2 is -0.800000 + -0.200000 = -1.000000
+
+ SUM for tid 253 , bid 2 is -0.200000 + 2.800000 = 2.600000
+
+ SUM for tid 254 , bid 2 is -0.600000 + 0.800000 = 0.200000
+
+ SUM for tid 255 , bid 2 is 2.200000 + 2.600000 = 4.800000
+
+ SUM for tid 64 , bid 2 is 1.400000 + 2.000000 = 3.400000
+
+ SUM for tid 65 , bid 2 is 1.800000 + 1.400000 = 3.200000
+
+ SUM for tid 66 , bid 2 is -1.000000 + -0.400000 = -1.400000
+
+ SUM for tid 67 , bid 2 is 0.400000 + 2.000000 = 2.400000
+
+ SUM for tid 68 , bid 2 is 2.600000 + -0.200000 = 2.400000
+
+ SUM for tid 69 , bid 2 is -0.800000 + 2.800000 = 2.000000
+
+ SUM for tid 70 , bid 2 is 2.000000 + 0.800000 = 2.800000
+
+ SUM for tid 71 , bid 2 is -0.800000 + 2.000000 = 1.200000
+
+ SUM for tid 72 , bid 2 is -1.000000 + 2.800000 = 1.800000
+
+ SUM for tid 73 , bid 2 is 0.600000 + 2.400000 = 3.000000
+
+ SUM for tid 74 , bid 2 is 2.200000 + -0.400000 = 1.800000
+
+ SUM for tid 75 , bid 2 is -0.600000 + 1.400000 = 0.800000
+
+ SUM for tid 76 , bid 2 is 2.600000 + 1.600000 = 4.200000
+
+ SUM for tid 77 , bid 2 is 0.800000 + 2.400000 = 3.200000
+
+ SUM for tid 78 , bid 2 is -1.000000 + 0.800000 = -0.200000
+
+ SUM for tid 79 , bid 2 is -0.400000 + 1.600000 = 1.200000
+
+ SUM for tid 80 , bid 2 is 0.000000 + 0.800000 = 0.800000
+
+ SUM for tid 81 , bid 2 is 2.200000 + 0.600000 = 2.800000
+
+ SUM for tid 82 , bid 2 is -1.000000 + 0.200000 = -0.800000
+
+ SUM for tid 83 , bid 2 is 1.400000 + 1.200000 = 2.600000
+
+ SUM for tid 84 , bid 2 is 0.200000 + 1.400000 = 1.600000
+
+ SUM for tid 85 , bid 2 is 0.000000 + -0.400000 = -0.400000
+
+ SUM for tid 86 , bid 2 is 0.800000 + -0.200000 = 0.600000
+
+ SUM for tid 87 , bid 2 is 0.800000 + 2.400000 = 3.200000
+
+ SUM for tid 88 , bid 2 is -0.800000 + 1.600000 = 0.800000
+
+ SUM for tid 89 , bid 2 is 2.400000 + 2.000000 = 4.400000
+
+ SUM for tid 90 , bid 2 is -0.600000 + 0.200000 = -0.400000
+
+ SUM for tid 91 , bid 2 is -0.400000 + -0.200000 = -0.600000
+
+ SUM for tid 92 , bid 2 is 1.800000 + 2.800000 = 4.600000
+
+ SUM for tid 93 , bid 2 is 2.000000 + 0.800000 = 2.800000
+
+ SUM for tid 94 , bid 2 is 2.200000 + 2.600000 = 4.800000
+
+ SUM for tid 95 , bid 2 is 2.600000 + 1.800000 = 4.400000
+
+ SUM for tid 128 , bid 2 is 2.600000 + 1.600000 = 4.200000
+
+ SUM for tid 129 , bid 2 is 1.600000 + 0.000000 = 1.600000
+
+ SUM for tid 130 , bid 2 is -1.000000 + 2.200000 = 1.200000
+
+ SUM for tid 131 , bid 2 is -1.000000 + 2.600000 = 1.600000
+
+ SUM for tid 132 , bid 2 is 2.600000 + 0.600000 = 3.200000
+
+ SUM for tid 133 , bid 2 is 0.000000 + 0.800000 = 0.800000
+
+ SUM for tid 134 , bid 2 is 1.200000 + -0.600000 = 0.600000
+
+ SUM for tid 135 , bid 2 is 2.800000 + 1.200000 = 4.000000
+
+ SUM for tid 136 , bid 2 is 0.200000 + 1.600000 = 1.800000
+
+ SUM for tid 137 , bid 2 is 0.600000 + 1.000000 = 1.600000
+
+ SUM for tid 138 , bid 2 is 1.200000 + 2.200000 = 3.400000
+
+ SUM for tid 139 , bid 2 is 0.800000 + 0.400000 = 1.200000
+
+ SUM for tid 140 , bid 2 is 0.000000 + 0.600000 = 0.600000
+
+ SUM for tid 141 , bid 2 is 2.600000 + 0.400000 = 3.000000
+
+ SUM for tid 142 , bid 2 is 2.200000 + -0.600000 = 1.600000
+
+ SUM for tid 143 , bid 2 is 2.800000 + 2.000000 = 4.800000
+
+ SUM for tid 144 , bid 2 is 2.600000 + 2.000000 = 4.600000
+
+ SUM for tid 145 , bid 2 is -1.000000 + 0.800000 = -0.200000
+
+ SUM for tid 146 , bid 2 is 2.800000 + 2.600000 = 5.400000
+
+ SUM for tid 147 , bid 2 is -0.600000 + 0.400000 = -0.200000
+
+ SUM for tid 148 , bid 2 is 1.600000 + 0.600000 = 2.200000
+
+ SUM for tid 149 , bid 2 is -1.000000 + 2.600000 = 1.600000
+
+ SUM for tid 150 , bid 2 is -1.000000 + 1.600000 = 0.600000
+
+ SUM for tid 151 , bid 2 is 1.200000 + 0.200000 = 1.400000
+
+ SUM for tid 152 , bid 2 is -0.200000 + 2.200000 = 2.000000
+
+ SUM for tid 153 , bid 2 is 1.400000 + 1.800000 = 3.200000
+
+ SUM for tid 154 , bid 2 is 0.600000 + 1.400000 = 2.000000
+
+ SUM for tid 155 , bid 2 is -0.600000 + -0.200000 = -0.800000
+
+ SUM for tid 156 , bid 2 is -0.800000 + 0.200000 = -0.600000
+
+ SUM for tid 157 , bid 2 is -0.400000 + 2.200000 = 1.800000
+
+ SUM for tid 158 , bid 2 is 1.800000 + 1.800000 = 3.600000
+
+ SUM for tid 159 , bid 2 is 2.800000 + 1.400000 = 4.200000
+
+ SUM for tid 128 , bid 1 is -0.600000 + -0.600000 = -1.200000
+
+ SUM for tid 129 , bid 1 is -0.600000 + 1.400000 = 0.800000
+
+ SUM for tid 130 , bid 1 is 1.400000 + 0.600000 = 2.000000
+
+ SUM for tid 131 , bid 1 is -0.400000 + -0.400000 = -0.800000
+
+ SUM for tid 132 , bid 1 is 0.600000 + 0.800000 = 1.400000
+
+ SUM for tid 133 , bid 1 is -0.800000 + 0.400000 = -0.400000
+
+ SUM for tid 134 , bid 1 is 1.800000 + 0.200000 = 2.000000
+
+ SUM for tid 135 , bid 1 is 0.800000 + 2.600000 = 3.400000
+
+ SUM for tid 136 , bid 1 is -0.200000 + 0.000000 = -0.200000
+
+ SUM for tid 137 , bid 1 is 2.200000 + 1.000000 = 3.200000
+
+ SUM for tid 138 , bid 1 is 1.000000 + 2.600000 = 3.600000
+
+ SUM for tid 139 , bid 1 is 1.200000 + 2.600000 = 3.800000
+
+ SUM for tid 140 , bid 1 is -0.200000 + 2.000000 = 1.800000
+
+ SUM for tid 141 , bid 1 is 2.800000 + -0.600000 = 2.200000
+
+ SUM for tid 142 , bid 1 is -0.400000 + 0.400000 = 0.000000
+
+ SUM for tid 143 , bid 1 is 2.600000 + 0.000000 = 2.600000
+
+ SUM for tid 144 , bid 1 is 2.400000 + 1.400000 = 3.800000
+
+ SUM for tid 145 , bid 1 is 1.800000 + 0.800000 = 2.600000
+
+ SUM for tid 146 , bid 1 is 2.400000 + 0.000000 = 2.400000
+
+ SUM for tid 147 , bid 1 is 0.400000 + 0.600000 = 1.000000
+
+ SUM for tid 148 , bid 1 is -0.600000 + 1.200000 = 0.600000
+
+ SUM for tid 149 , bid 1 is 0.000000 + 2.000000 = 2.000000
+
+ SUM for tid 150 , bid 1 is 0.200000 + -1.000000 = -0.800000
+
+ SUM for tid 151 , bid 1 is 1.600000 + 1.000000 = 2.600000
+
+ SUM for tid 152 , bid 1 is 1.800000 + 2.200000 = 4.000000
+
+ SUM for tid 153 , bid 1 is 1.800000 + -0.400000 = 1.400000
+
+ SUM for tid 154 , bid 1 is 2.600000 + -0.400000 = 2.200000
+
+ SUM for tid 155 , bid 1 is 0.200000 + 0.600000 = 0.800000
+
+ SUM for tid 156 , bid 1 is 2.400000 + 0.400000 = 2.800000
+
+ SUM for tid 157 , bid 1 is 2.600000 + 2.400000 = 5.000000
+
+ SUM for tid 158 , bid 1 is 2.200000 + 1.000000 = 3.200000
+
+ SUM for tid 159 , bid 1 is 2.800000 + -0.800000 = 2.000000
+
+ SUM for tid 32 , bid 1 is 1.000000 + 0.200000 = 1.200000
+
+ SUM for tid 33 , bid 1 is 2.800000 + 2.400000 = 5.200000
+
+ SUM for tid 34 , bid 1 is 1.200000 + 2.800000 = 4.000000
+
+ SUM for tid 35 , bid 1 is 1.000000 + 2.400000 = 3.400000
+
+ SUM for tid 36 , bid 1 is 2.600000 + 2.000000 = 4.600000
+
+ SUM for tid 37 , bid 1 is 2.600000 + 0.000000 = 2.600000
+
+ SUM for tid 38 , bid 1 is 1.600000 + 2.800000 = 4.400000
+
+ SUM for tid 39 , bid 1 is 1.200000 + 0.000000 = 1.200000
+
+ SUM for tid 40 , bid 1 is 0.000000 + 0.000000 = 0.000000
+
+ SUM for tid 41 , bid 1 is 1.400000 + 1.200000 = 2.600000
+
+ SUM for tid 42 , bid 1 is 1.400000 + -1.000000 = 0.400000
+
+ SUM for tid 43 , bid 1 is 0.000000 + 0.600000 = 0.600000
+
+ SUM for tid 44 , bid 1 is 0.200000 + -0.200000 = 0.000000
+
+ SUM for tid 45 , bid 1 is 1.400000 + 1.600000 = 3.000000
+
+ SUM for tid 46 , bid 1 is -1.000000 + -0.800000 = -1.800000
+
+ SUM for tid 47 , bid 1 is 0.000000 + 2.000000 = 2.000000
+
+ SUM for tid 48 , bid 1 is 2.200000 + 0.400000 = 2.600000
+
+ SUM for tid 49 , bid 1 is 0.800000 + 1.600000 = 2.400000
+
+ SUM for tid 50 , bid 1 is 0.600000 + 0.600000 = 1.200000
+
+ SUM for tid 51 , bid 1 is -0.800000 + 0.400000 = -0.400000
+
+ SUM for tid 52 , bid 1 is -0.800000 + 1.200000 = 0.400000
+
+ SUM for tid 53 , bid 1 is 0.600000 + -0.400000 = 0.200000
+
+ SUM for tid 54 , bid 1 is -0.400000 + 2.200000 = 1.800000
+
+ SUM for tid 55 , bid 1 is 0.400000 + 0.800000 = 1.200000
+
+ SUM for tid 56 , bid 1 is -0.600000 + -0.800000 = -1.400000
+
+ SUM for tid 57 , bid 1 is -0.800000 + 0.800000 = 0.000000
+
+ SUM for tid 58 , bid 1 is 2.600000 + 2.000000 = 4.600000
+
+ SUM for tid 59 , bid 1 is 0.600000 + 0.600000 = 1.200000
+
+ SUM for tid 60 , bid 1 is 1.400000 + -0.400000 = 1.000000
+
+ SUM for tid 61 , bid 1 is 2.600000 + 0.000000 = 2.600000
+
+ SUM for tid 62 , bid 1 is 0.400000 + -1.000000 = -0.600000
+
+ SUM for tid 63 , bid 1 is 1.800000 + 0.800000 = 2.600000
+
+ SUM for tid 96 , bid 1 is 1.800000 + 1.000000 = 2.800000
+
+ SUM for tid 97 , bid 1 is 2.800000 + 2.800000 = 5.600000
+
+ SUM for tid 98 , bid 1 is -0.600000 + 1.000000 = 0.400000
+
+ SUM for tid 99 , bid 1 is -0.600000 + 0.200000 = -0.400000
+
+ SUM for tid 100 , bid 1 is 0.800000 + 0.800000 = 1.600000
+
+ SUM for tid 101 , bid 1 is 1.600000 + 2.400000 = 4.000000
+
+ SUM for tid 102 , bid 1 is 0.600000 + 0.400000 = 1.000000
+
+ SUM for tid 103 , bid 1 is 1.000000 + -0.600000 = 0.400000
+
+ SUM for tid 104 , bid 1 is -0.800000 + 2.200000 = 1.400000
+
+ SUM for tid 105 , bid 1 is 1.200000 + 2.400000 = 3.600000
+
+ SUM for tid 106 , bid 1 is 1.000000 + 1.400000 = 2.400000
+
+ SUM for tid 107 , bid 1 is 0.800000 + -1.000000 = -0.200000
+
+ SUM for tid 108 , bid 1 is 2.000000 + -0.800000 = 1.200000
+
+ SUM for tid 109 , bid 1 is 2.200000 + 0.000000 = 2.200000
+
+ SUM for tid 110 , bid 1 is 2.400000 + 1.200000 = 3.600000
+
+ SUM for tid 111 , bid 1 is 1.400000 + 0.800000 = 2.200000
+
+ SUM for tid 112 , bid 1 is 1.600000 + 2.600000 = 4.200000
+
+ SUM for tid 113 , bid 1 is 0.200000 + 1.000000 = 1.200000
+
+ SUM for tid 114 , bid 1 is 1.000000 + 0.800000 = 1.800000
+
+ SUM for tid 115 , bid 1 is 0.400000 + 0.400000 = 0.800000
+
+ SUM for tid 116 , bid 1 is 1.000000 + 2.200000 = 3.200000
+
+ SUM for tid 117 , bid 1 is 2.200000 + 1.000000 = 3.200000
+
+ SUM for tid 118 , bid 1 is 0.600000 + 1.000000 = 1.600000
+
+ SUM for tid 119 , bid 1 is 0.400000 + 1.400000 = 1.800000
+
+ SUM for tid 120 , bid 1 is 2.800000 + 2.800000 = 5.600000
+
+ SUM for tid 121 , bid 1 is 2.200000 + 0.800000 = 3.000000
+
+ SUM for tid 122 , bid 1 is 2.200000 + 1.200000 = 3.400000
+
+ SUM for tid 123 , bid 1 is 0.000000 + 1.600000 = 1.600000
+
+ SUM for tid 124 , bid 1 is 1.400000 + -1.000000 = 0.400000
+
+ SUM for tid 125 , bid 1 is 1.200000 + -0.400000 = 0.800000
+
+ SUM for tid 126 , bid 1 is -1.000000 + -0.800000 = -1.800000
+
+ SUM for tid 127 , bid 1 is 2.600000 + -0.600000 = 2.000000
+
+ SUM for tid 64 , bid 1 is 0.800000 + 1.800000 = 2.600000
+
+ SUM for tid 65 , bid 1 is 2.600000 + 2.800000 = 5.400000
+
+ SUM for tid 66 , bid 1 is -0.200000 + 2.600000 = 2.400000
+
+ SUM for tid 67 , bid 1 is 2.800000 + 1.000000 = 3.800000
+
+ SUM for tid 68 , bid 1 is 2.200000 + -0.200000 = 2.000000
+
+ SUM for tid 69 , bid 1 is 2.400000 + 2.600000 = 5.000000
+
+ SUM for tid 70 , bid 1 is 1.200000 + 0.400000 = 1.600000
+
+ SUM for tid 71 , bid 1 is 1.800000 + -0.800000 = 1.000000
+
+ SUM for tid 72 , bid 1 is -0.800000 + -0.800000 = -1.600000
+
+ SUM for tid 73 , bid 1 is 2.000000 + 2.800000 = 4.800000
+
+ SUM for tid 74 , bid 1 is 1.200000 + 1.000000 = 2.200000
+
+ SUM for tid 75 , bid 1 is 0.600000 + 2.400000 = 3.000000
+
+ SUM for tid 76 , bid 1 is 0.600000 + 1.400000 = 2.000000
+
+ SUM for tid 77 , bid 1 is -0.400000 + -0.400000 = -0.800000
+
+ SUM for tid 78 , bid 1 is 0.000000 + 1.600000 = 1.600000
+
+ SUM for tid 79 , bid 1 is 2.200000 + 2.800000 = 5.000000
+
+ SUM for tid 80 , bid 1 is 0.000000 + 2.200000 = 2.200000
+
+ SUM for tid 81 , bid 1 is 0.000000 + -0.800000 = -0.800000
+
+ SUM for tid 82 , bid 1 is 0.800000 + 2.600000 = 3.400000
+
+ SUM for tid 83 , bid 1 is 2.600000 + -1.000000 = 1.600000
+
+ SUM for tid 84 , bid 1 is 1.800000 + 2.400000 = 4.200000
+
+ SUM for tid 85 , bid 1 is 1.400000 + 1.800000 = 3.200000
+
+ SUM for tid 86 , bid 1 is 0.000000 + -0.800000 = -0.800000
+
+ SUM for tid 87 , bid 1 is 0.600000 + 1.000000 = 1.600000
+
+ SUM for tid 88 , bid 1 is 0.000000 + 2.000000 = 2.000000
+
+ SUM for tid 89 , bid 1 is -0.400000 + 2.200000 = 1.800000
+
+ SUM for tid 90 , bid 1 is 2.200000 + 2.800000 = 5.000000
+
+ SUM for tid 91 , bid 1 is 0.800000 + 2.800000 = 3.600000
+
+ SUM for tid 92 , bid 1 is 1.600000 + -0.600000 = 1.000000
+
+ SUM for tid 93 , bid 1 is 2.000000 + 2.800000 = 4.800000
+
+ SUM for tid 94 , bid 1 is 2.000000 + -1.000000 = 1.000000
+
+ SUM for tid 95 , bid 1 is -0.400000 + 0.600000 = 0.200000
+
+ SUM for tid 224 , bid 1 is 0.400000 + 0.400000 = 0.800000
+
+ SUM for tid 225 , bid 1 is 2.600000 + -1.000000 = 1.600000
+
+ SUM for tid 226 , bid 1 is -0.400000 + 2.000000 = 1.600000
+
+ SUM for tid 227 , bid 1 is -0.400000 + 0.000000 = -0.400000
+
+ SUM for tid 228 , bid 1 is 0.200000 + 2.800000 = 3.000000
+
+ SUM for tid 229 , bid 1 is 2.600000 + 0.800000 = 3.400000
+
+ SUM for tid 230 , bid 1 is 2.200000 + 0.600000 = 2.800000
+
+ SUM for tid 231 , bid 1 is 2.400000 + -0.600000 = 1.800000
+
+ SUM for tid 232 , bid 1 is 1.800000 + 2.000000 = 3.800000
+
+ SUM for tid 233 , bid 1 is 1.200000 + -0.400000 = 0.800000
+
+ SUM for tid 234 , bid 1 is -0.200000 + 2.400000 = 2.200000
+
+ SUM for tid 235 , bid 1 is -0.200000 + 1.600000 = 1.400000
+
+ SUM for tid 236 , bid 1 is 0.200000 + 2.800000 = 3.000000
+
+ SUM for tid 237 , bid 1 is 1.800000 + 2.600000 = 4.400000
+
+ SUM for tid 238 , bid 1 is -0.200000 + 1.400000 = 1.200000
+
+ SUM for tid 239 , bid 1 is 2.600000 + -0.600000 = 2.000000
+
+ SUM for tid 240 , bid 1 is -0.200000 + 2.200000 = 2.000000
+
+ SUM for tid 241 , bid 1 is 2.600000 + 2.000000 = 4.600000
+
+ SUM for tid 242 , bid 1 is 2.600000 + 2.000000 = 4.600000
+
+ SUM for tid 243 , bid 1 is 1.800000 + 1.400000 = 3.200000
+
+ SUM for tid 244 , bid 1 is 0.200000 + -0.600000 = -0.400000
+
+ SUM for tid 245 , bid 1 is 0.200000 + 0.800000 = 1.000000
+
+ SUM for tid 246 , bid 1 is 2.200000 + 0.800000 = 3.000000
+
+ SUM for tid 247 , bid 1 is 1.200000 + 2.800000 = 4.000000
+
+ SUM for tid 248 , bid 1 is 1.800000 + 0.600000 = 2.400000
+
+ SUM for tid 249 , bid 1 is 2.400000 + 1.200000 = 3.600000
+
+ SUM for tid 250 , bid 1 is 2.800000 + -0.400000 = 2.400000
+
+ SUM for tid 251 , bid 1 is -0.200000 + 0.400000 = 0.200000
+
+ SUM for tid 252 , bid 1 is 1.000000 + 2.000000 = 3.000000
+
+ SUM for tid 253 , bid 1 is 2.200000 + -0.200000 = 2.000000
+
+ SUM for tid 254 , bid 1 is -0.600000 + 2.200000 = 1.600000
+
+ SUM for tid 255 , bid 1 is 1.000000 + -0.600000 = 0.400000
+
+ SUM for tid 192 , bid 1 is -0.400000 + 2.400000 = 2.000000
+
+ SUM for tid 193 , bid 1 is 1.800000 + 1.200000 = 3.000000
+
+ SUM for tid 194 , bid 1 is -0.800000 + 2.800000 = 2.000000
+
+ SUM for tid 195 , bid 1 is 2.400000 + 0.400000 = 2.800000
+
+ SUM for tid 196 , bid 1 is 2.000000 + 0.200000 = 2.200000
+
+ SUM for tid 197 , bid 1 is 2.000000 + 2.800000 = 4.800000
+
+ SUM for tid 198 , bid 1 is 2.000000 + -0.800000 = 1.200000
+
+ SUM for tid 199 , bid 1 is -0.800000 + -0.400000 = -1.200000
+
+ SUM for tid 200 , bid 1 is 1.200000 + 1.000000 = 2.200000
+
+ SUM for tid 201 , bid 1 is -0.200000 + 0.200000 = 0.000000
+
+ SUM for tid 202 , bid 1 is -0.400000 + 2.000000 = 1.600000
+
+ SUM for tid 203 , bid 1 is 0.200000 + -0.400000 = -0.200000
+
+ SUM for tid 204 , bid 1 is 0.800000 + 0.200000 = 1.000000
+
+ SUM for tid 205 , bid 1 is 2.000000 + -0.200000 = 1.800000
+
+ SUM for tid 206 , bid 1 is 2.600000 + -1.000000 = 1.600000
+
+ SUM for tid 207 , bid 1 is 0.600000 + 2.800000 = 3.400000
+
+ SUM for tid 208 , bid 1 is 1.400000 + 1.200000 = 2.600000
+
+ SUM for tid 209 , bid 1 is 0.800000 + 0.200000 = 1.000000
+
+ SUM for tid 210 , bid 1 is -0.800000 + 1.200000 = 0.400000
+
+ SUM for tid 211 , bid 1 is 0.400000 + 1.400000 = 1.800000
+
+ SUM for tid 212 , bid 1 is 2.600000 + -0.200000 = 2.400000
+
+ SUM for tid 213 , bid 1 is 0.600000 + 0.200000 = 0.800000
+
+ SUM for tid 214 , bid 1 is 0.600000 + -0.600000 = 0.000000
+
+ SUM for tid 215 , bid 1 is -0.800000 + 2.400000 = 1.600000
+
+ SUM for tid 216 , bid 1 is 1.600000 + 2.400000 = 4.000000
+
+ SUM for tid 217 , bid 1 is 2.000000 + 2.800000 = 4.800000
+
+ SUM for tid 218 , bid 1 is -0.800000 + 1.000000 = 0.200000
+
+ SUM for tid 219 , bid 1 is 0.600000 + 1.400000 = 2.000000
+
+ SUM for tid 220 , bid 1 is 1.000000 + 2.800000 = 3.800000
+
+ SUM for tid 221 , bid 1 is -0.800000 + -0.200000 = -1.000000
+
+ SUM for tid 222 , bid 1 is 2.400000 + -0.800000 = 1.600000
+
+ SUM for tid 223 , bid 1 is 0.200000 + 0.600000 = 0.800000
+
+ SUM for tid 160 , bid 1 is 1.600000 + 0.800000 = 2.400000
+
+ SUM for tid 161 , bid 1 is 0.600000 + 1.000000 = 1.600000
+
+ SUM for tid 162 , bid 1 is -0.400000 + 2.400000 = 2.000000
+
+ SUM for tid 163 , bid 1 is 1.600000 + 1.000000 = 2.600000
+
+ SUM for tid 164 , bid 1 is -0.800000 + 2.400000 = 1.600000
+
+ SUM for tid 165 , bid 1 is 0.800000 + 2.000000 = 2.800000
+
+ SUM for tid 166 , bid 1 is 1.800000 + -1.000000 = 0.800000
+
+ SUM for tid 167 , bid 1 is 0.200000 + 1.800000 = 2.000000
+
+ SUM for tid 168 , bid 1 is 0.000000 + 0.000000 = 0.000000
+
+ SUM for tid 169 , bid 1 is -0.200000 + 1.200000 = 1.000000
+
+ SUM for tid 170 , bid 1 is 0.800000 + 1.400000 = 2.200000
+
+ SUM for tid 171 , bid 1 is 1.000000 + 1.400000 = 2.400000
+
+ SUM for tid 172 , bid 1 is 2.000000 + 1.600000 = 3.600000
+
+ SUM for tid 173 , bid 1 is 1.600000 + -1.000000 = 0.600000
+
+ SUM for tid 174 , bid 1 is -1.000000 + 0.800000 = -0.200000
+
+ SUM for tid 175 , bid 1 is 1.400000 + 0.000000 = 1.400000
+
+ SUM for tid 176 , bid 1 is 2.800000 + -0.800000 = 2.000000
+
+ SUM for tid 177 , bid 1 is 2.400000 + 1.800000 = 4.200000
+
+ SUM for tid 178 , bid 1 is 1.200000 + 0.000000 = 1.200000
+
+ SUM for tid 179 , bid 1 is -0.800000 + 1.400000 = 0.600000
+
+ SUM for tid 180 , bid 1 is 2.000000 + -0.800000 = 1.200000
+
+ SUM for tid 181 , bid 1 is 2.400000 + 2.600000 = 5.000000
+
+ SUM for tid 182 , bid 1 is 1.800000 + -0.400000 = 1.400000
+
+ SUM for tid 183 , bid 1 is 0.800000 + 2.400000 = 3.200000
+
+ SUM for tid 184 , bid 1 is 1.200000 + -0.800000 = 0.400000
+
+ SUM for tid 185 , bid 1 is 0.000000 + 2.600000 = 2.600000
+
+ SUM for tid 186 , bid 1 is 0.400000 + 0.000000 = 0.400000
+
+ SUM for tid 187 , bid 1 is 0.600000 + -1.000000 = -0.400000
+
+ SUM for tid 188 , bid 1 is -0.400000 + 2.000000 = 1.600000
+
+ SUM for tid 189 , bid 1 is -0.400000 + 0.400000 = 0.000000
+
+ SUM for tid 190 , bid 1 is 2.800000 + 1.800000 = 4.600000
+
+ SUM for tid 191 , bid 1 is 0.600000 + 2.200000 = 2.800000
+
+ SUM for tid 192 , bid 2 is 2.800000 + 0.600000 = 3.400000
+
+ SUM for tid 193 , bid 2 is -0.800000 + -0.400000 = -1.200000
+
+ SUM for tid 194 , bid 2 is 0.200000 + 0.000000 = 0.200000
+
+ SUM for tid 195 , bid 2 is 1.200000 + 1.200000 = 2.400000
+
+ SUM for tid 196 , bid 2 is 0.000000 + 2.000000 = 2.000000
+
+ SUM for tid 197 , bid 2 is 2.000000 + 2.600000 = 4.600000
+
+ SUM for tid 198 , bid 2 is -0.800000 + 0.600000 = -0.200000
+
+ SUM for tid 199 , bid 2 is -0.800000 + 1.000000 = 0.200000
+
+ SUM for tid 200 , bid 2 is 0.600000 + -1.000000 = -0.400000
+
+ SUM for tid 201 , bid 2 is -1.000000 + 0.000000 = -1.000000
+
+ SUM for tid 202 , bid 2 is 1.000000 + 1.600000 = 2.600000
+
+ SUM for tid 203 , bid 2 is -1.000000 + -1.000000 = -2.000000
+
+ SUM for tid 204 , bid 2 is 0.400000 + 2.200000 = 2.600000
+
+ SUM for tid 205 , bid 2 is 2.800000 + -0.400000 = 2.400000
+
+ SUM for tid 206 , bid 2 is -0.800000 + 2.200000 = 1.400000
+
+ SUM for tid 207 , bid 2 is 0.400000 + -0.200000 = 0.200000
+
+ SUM for tid 208 , bid 2 is 2.600000 + 1.200000 = 3.800000
+
+ SUM for tid 209 , bid 2 is 1.600000 + -1.000000 = 0.600000
+
+ SUM for tid 210 , bid 2 is 0.800000 + -0.200000 = 0.600000
+
+ SUM for tid 211 , bid 2 is 2.600000 + 0.800000 = 3.400000
+
+ SUM for tid 212 , bid 2 is 2.400000 + 0.600000 = 3.000000
+
+ SUM for tid 213 , bid 2 is 1.800000 + 2.600000 = 4.400000
+
+ SUM for tid 214 , bid 2 is -0.600000 + -0.400000 = -1.000000
+
+ SUM for tid 215 , bid 2 is 1.800000 + -0.400000 = 1.400000
+
+ SUM for tid 216 , bid 2 is 2.800000 + 2.400000 = 5.200000
+
+ SUM for tid 217 , bid 2 is -0.800000 + 1.800000 = 1.000000
+
+ SUM for tid 218 , bid 2 is -0.200000 + 0.000000 = -0.200000
+
+ SUM for tid 219 , bid 2 is 2.800000 + 1.200000 = 4.000000
+
+ SUM for tid 220 , bid 2 is 1.800000 + 1.400000 = 3.200000
+
+ SUM for tid 221 , bid 2 is 1.600000 + 2.600000 = 4.200000
+
+ SUM for tid 222 , bid 2 is 2.800000 + 0.400000 = 3.200000
+
+ SUM for tid 223 , bid 2 is 0.000000 + 1.400000 = 1.400000
+
+ SUM for tid 0 , bid 1 is 0.000000 + -0.200000 = -0.200000
+
+ SUM for tid 1 , bid 1 is 2.800000 + 1.200000 = 4.000000
+
+ SUM for tid 2 , bid 1 is 2.800000 + 0.400000 = 3.200000
+
+ SUM for tid 3 , bid 1 is -1.000000 + 0.400000 = -0.600000
+
+ SUM for tid 4 , bid 1 is 0.600000 + 2.800000 = 3.400000
+
+ SUM for tid 5 , bid 1 is 2.600000 + 0.200000 = 2.800000
+
+ SUM for tid 6 , bid 1 is 0.200000 + 1.800000 = 2.000000
+
+ SUM for tid 7 , bid 1 is -0.600000 + -0.600000 = -1.200000
+
+ SUM for tid 8 , bid 1 is -0.800000 + 0.800000 = 0.000000
+
+ SUM for tid 9 , bid 1 is 0.400000 + -1.000000 = -0.600000
+
+ SUM for tid 10 , bid 1 is 2.800000 + -1.000000 = 1.800000
+
+ SUM for tid 11 , bid 1 is -0.800000 + 2.000000 = 1.200000
+
+ SUM for tid 12 , bid 1 is 0.400000 + 1.200000 = 1.600000
+
+ SUM for tid 13 , bid 1 is 1.800000 + 1.400000 = 3.200000
+
+ SUM for tid 14 , bid 1 is 0.600000 + -0.800000 = -0.200000
+
+ SUM for tid 15 , bid 1 is -0.400000 + 1.600000 = 1.200000
+
+ SUM for tid 16 , bid 1 is 2.800000 + 2.800000 = 5.600000
+
+ SUM for tid 17 , bid 1 is -0.400000 + -0.600000 = -1.000000
+
+ SUM for tid 18 , bid 1 is 0.800000 + 1.200000 = 2.000000
+
+ SUM for tid 19 , bid 1 is -0.600000 + -0.800000 = -1.400000
+
+ SUM for tid 20 , bid 1 is 0.000000 + 0.600000 = 0.600000
+
+ SUM for tid 21 , bid 1 is -1.000000 + 0.200000 = -0.800000
+
+ SUM for tid 22 , bid 1 is 0.600000 + 2.000000 = 2.600000
+
+ SUM for tid 23 , bid 1 is 1.000000 + 0.600000 = 1.600000
+
+ SUM for tid 24 , bid 1 is 1.600000 + 2.400000 = 4.000000
+
+ SUM for tid 25 , bid 1 is 1.800000 + 0.200000 = 2.000000
+
+ SUM for tid 26 , bid 1 is 2.600000 + 1.600000 = 4.200000
+
+ SUM for tid 27 , bid 1 is 1.200000 + 1.800000 = 3.000000
+
+ SUM for tid 28 , bid 1 is 1.600000 + 2.000000 = 3.600000
+
+ SUM for tid 29 , bid 1 is 1.200000 + -0.600000 = 0.600000
+
+ SUM for tid 30 , bid 1 is -1.000000 + 2.600000 = 1.600000
+
+ SUM for tid 31 , bid 1 is 2.800000 + 1.200000 = 4.000000
+
+ SUM for tid 0 , bid 2 is 0.400000 + 2.200000 = 2.600000
+
+ SUM for tid 1 , bid 2 is 0.000000 + -0.400000 = -0.400000
+
+ SUM for tid 2 , bid 2 is 1.600000 + 2.800000 = 4.400000
+
+ SUM for tid 3 , bid 2 is 1.600000 + 0.600000 = 2.200000
+
+ SUM for tid 4 , bid 2 is 2.000000 + 1.400000 = 3.400000
+
+ SUM for tid 5 , bid 2 is 0.800000 + 0.400000 = 1.200000
+
+ SUM for tid 6 , bid 2 is 1.000000 + 1.000000 = 2.000000
+
+ SUM for tid 7 , bid 2 is -0.600000 + 0.400000 = -0.200000
+
+ SUM for tid 8 , bid 2 is -1.000000 + -0.600000 = -1.600000
+
+ SUM for tid 9 , bid 2 is 0.200000 + 0.400000 = 0.600000
+
+ SUM for tid 10 , bid 2 is 2.600000 + -1.000000 = 1.600000
+
+ SUM for tid 11 , bid 2 is 0.200000 + 1.800000 = 2.000000
+
+ SUM for tid 12 , bid 2 is -0.800000 + 2.400000 = 1.600000
+
+ SUM for tid 13 , bid 2 is -0.600000 + -0.200000 = -0.800000
+
+ SUM for tid 14 , bid 2 is 2.200000 + 2.200000 = 4.400000
+
+ SUM for tid 15 , bid 2 is 2.400000 + 1.600000 = 4.000000
+
+ SUM for tid 16 , bid 2 is 1.400000 + -1.000000 = 0.400000
+
+ SUM for tid 17 , bid 2 is 1.800000 + -0.400000 = 1.400000
+
+ SUM for tid 18 , bid 2 is 1.200000 + 2.400000 = 3.600000
+
+ SUM for tid 19 , bid 2 is 1.000000 + 1.800000 = 2.800000
+
+ SUM for tid 20 , bid 2 is -0.800000 + 1.400000 = 0.600000
+
+ SUM for tid 21 , bid 2 is 2.800000 + 2.800000 = 5.600000
+
+ SUM for tid 22 , bid 2 is -0.800000 + 1.600000 = 0.800000
+
+ SUM for tid 23 , bid 2 is 2.000000 + 1.600000 = 3.600000
+
+ SUM for tid 24 , bid 2 is 0.800000 + 1.000000 = 1.800000
+
+ SUM for tid 25 , bid 2 is -0.800000 + 0.600000 = -0.200000
+
+ SUM for tid 26 , bid 2 is 1.200000 + 1.400000 = 2.600000
+
+ SUM for tid 27 , bid 2 is 2.800000 + 2.600000 = 5.400000
+
+ SUM for tid 28 , bid 2 is 0.800000 + 0.000000 = 0.800000
+
+ SUM for tid 29 , bid 2 is 1.800000 + 0.600000 = 2.400000
+
+ SUM for tid 30 , bid 2 is 0.800000 + 1.400000 = 2.200000
+
+ SUM for tid 31 , bid 2 is 0.600000 + -0.800000 = -0.200000
+
+ SUM for tid 160 , bid 2 is 0.600000 + -0.800000 = -0.200000
+
+ SUM for tid 161 , bid 2 is 0.200000 + -0.600000 = -0.400000
+
+ SUM for tid 162 , bid 2 is -1.000000 + 1.000000 = 0.000000
+
+ SUM for tid 163 , bid 2 is 0.200000 + 0.800000 = 1.000000
+
+ SUM for tid 164 , bid 2 is 1.200000 + 1.200000 = 2.400000
+
+ SUM for tid 165 , bid 2 is -0.400000 + 1.400000 = 1.000000
+
+ SUM for tid 166 , bid 2 is 2.400000 + -0.800000 = 1.600000
+
+ SUM for tid 167 , bid 2 is 2.600000 + 2.400000 = 5.000000
+
+ SUM for tid 168 , bid 2 is -0.200000 + -0.600000 = -0.800000
+
+ SUM for tid 169 , bid 2 is -0.800000 + 0.800000 = 0.000000
+
+ SUM for tid 170 , bid 2 is 2.800000 + 2.200000 = 5.000000
+
+ SUM for tid 171 , bid 2 is 0.800000 + 1.200000 = 2.000000
+
+ SUM for tid 172 , bid 2 is 1.200000 + 0.600000 = 1.800000
+
+ SUM for tid 173 , bid 2 is 0.400000 + 2.800000 = 3.200000
+
+ SUM for tid 174 , bid 2 is 0.600000 + 2.600000 = 3.200000
+
+ SUM for tid 175 , bid 2 is 0.800000 + -0.200000 = 0.600000
+
+ SUM for tid 176 , bid 2 is 0.600000 + 0.600000 = 1.200000
+
+ SUM for tid 177 , bid 2 is 0.400000 + 0.600000 = 1.000000
+
+ SUM for tid 178 , bid 2 is 1.400000 + -0.400000 = 1.000000
+
+ SUM for tid 179 , bid 2 is -0.800000 + 0.600000 = -0.200000
+
+ SUM for tid 180 , bid 2 is 0.600000 + 0.200000 = 0.800000
+
+ SUM for tid 181 , bid 2 is 1.400000 + 0.600000 = 2.000000
+
+ SUM for tid 182 , bid 2 is 0.000000 + 1.800000 = 1.800000
+
+ SUM for tid 183 , bid 2 is -0.200000 + 1.800000 = 1.600000
+
+ SUM for tid 184 , bid 2 is -0.200000 + -0.400000 = -0.600000
+
+ SUM for tid 185 , bid 2 is 1.600000 + 2.600000 = 4.200000
+
+ SUM for tid 186 , bid 2 is 0.200000 + 2.800000 = 3.000000
+
+ SUM for tid 187 , bid 2 is 2.600000 + -0.800000 = 1.800000
+
+ SUM for tid 188 , bid 2 is 0.600000 + 1.800000 = 2.400000
+
+ SUM for tid 189 , bid 2 is 1.600000 + 0.000000 = 1.600000
+
+ SUM for tid 190 , bid 2 is 0.800000 + 1.600000 = 2.400000
+
+ SUM for tid 191 , bid 2 is 0.600000 + 2.200000 = 2.800000
+
+ SUM for tid 32 , bid 2 is 1.200000 + -0.200000 = 1.000000
+
+ SUM for tid 33 , bid 2 is 1.800000 + 1.400000 = 3.200000
+
+ SUM for tid 34 , bid 2 is -0.800000 + 0.800000 = 0.000000
+
+ SUM for tid 35 , bid 2 is 0.400000 + 2.200000 = 2.600000
+
+ SUM for tid 36 , bid 2 is -0.400000 + 2.800000 = 2.400000
+
+ SUM for tid 37 , bid 2 is -0.200000 + 1.200000 = 1.000000
+
+ SUM for tid 38 , bid 2 is 0.800000 + 2.200000 = 3.000000
+
+ SUM for tid 39 , bid 2 is 2.000000 + -0.600000 = 1.400000
+
+ SUM for tid 40 , bid 2 is 1.000000 + 2.800000 = 3.800000
+
+ SUM for tid 41 , bid 2 is 0.400000 + 0.600000 = 1.000000
+
+ SUM for tid 42 , bid 2 is 1.600000 + 0.600000 = 2.200000
+
+ SUM for tid 43 , bid 2 is -0.400000 + 0.600000 = 0.200000
+
+ SUM for tid 44 , bid 2 is -0.800000 + 1.600000 = 0.800000
+
+ SUM for tid 45 , bid 2 is 1.000000 + -0.200000 = 0.800000
+
+ SUM for tid 46 , bid 2 is 1.400000 + 1.800000 = 3.200000
+
+ SUM for tid 47 , bid 2 is 0.200000 + 0.000000 = 0.200000
+
+ SUM for tid 48 , bid 2 is -0.200000 + 0.600000 = 0.400000
+
+ SUM for tid 49 , bid 2 is 2.200000 + 1.200000 = 3.400000
+
+ SUM for tid 50 , bid 2 is 2.200000 + 2.800000 = 5.000000
+
+ SUM for tid 51 , bid 2 is 2.400000 + 1.400000 = 3.800000
+
+ SUM for tid 52 , bid 2 is 2.000000 + 1.000000 = 3.000000
+
+ SUM for tid 53 , bid 2 is 2.600000 + -0.200000 = 2.400000
+
+ SUM for tid 54 , bid 2 is 1.400000 + 0.000000 = 1.400000
+
+ SUM for tid 55 , bid 2 is -0.200000 + -0.800000 = -1.000000
+
+ SUM for tid 56 , bid 2 is 1.200000 + 1.400000 = 2.600000
+
+ SUM for tid 57 , bid 2 is 2.200000 + 1.000000 = 3.200000
+
+ SUM for tid 58 , bid 2 is 2.200000 + 1.200000 = 3.400000
+
+ SUM for tid 59 , bid 2 is 1.400000 + 2.400000 = 3.800000
+
+ SUM for tid 60 , bid 2 is 1.000000 + 1.000000 = 2.000000
+
+ SUM for tid 61 , bid 2 is 2.400000 + -0.400000 = 2.000000
+
+ SUM for tid 62 , bid 2 is -0.800000 + 1.200000 = 0.400000
+
+ SUM for tid 63 , bid 2 is -0.800000 + 1.800000 = 1.000000
+
+ SUM for tid 96 , bid 2 is 0.800000 + -0.600000 = 0.200000
+
+ SUM for tid 97 , bid 2 is 0.800000 + -0.800000 = 0.000000
+
+ SUM for tid 98 , bid 2 is 2.600000 + -0.800000 = 1.800000
+
+ SUM for tid 99 , bid 2 is -1.000000 + 0.200000 = -0.800000
+
+ SUM for tid 100 , bid 2 is 1.000000 + 1.400000 = 2.400000
+
+ SUM for tid 101 , bid 2 is 1.600000 + -0.600000 = 1.000000
+
+ SUM for tid 102 , bid 2 is 1.600000 + -0.800000 = 0.800000
+
+ SUM for tid 103 , bid 2 is 1.200000 + 1.400000 = 2.600000
+
+ SUM for tid 104 , bid 2 is -0.800000 + 1.200000 = 0.400000
+
+ SUM for tid 105 , bid 2 is 0.800000 + -0.200000 = 0.600000
+
+ SUM for tid 106 , bid 2 is 0.000000 + 2.200000 = 2.200000
+
+ SUM for tid 107 , bid 2 is -1.000000 + 0.000000 = -1.000000
+
+ SUM for tid 108 , bid 2 is 1.000000 + -0.600000 = 0.400000
+
+ SUM for tid 109 , bid 2 is 0.000000 + 2.600000 = 2.600000
+
+ SUM for tid 110 , bid 2 is 2.000000 + 2.600000 = 4.600000
+
+ SUM for tid 111 , bid 2 is 0.400000 + -0.400000 = 0.000000
+
+ SUM for tid 112 , bid 2 is 1.600000 + 0.200000 = 1.800000
+
+ SUM for tid 113 , bid 2 is 0.400000 + 2.200000 = 2.600000
+
+ SUM for tid 114 , bid 2 is 1.400000 + 1.800000 = 3.200000
+
+ SUM for tid 115 , bid 2 is -1.000000 + 1.200000 = 0.200000
+
+ SUM for tid 116 , bid 2 is -0.200000 + -1.000000 = -1.200000
+
+ SUM for tid 117 , bid 2 is -0.800000 + 2.800000 = 2.000000
+
+ SUM for tid 118 , bid 2 is 0.800000 + -1.000000 = -0.200000
+
+ SUM for tid 119 , bid 2 is 2.400000 + 0.000000 = 2.400000
+
+ SUM for tid 120 , bid 2 is 2.600000 + 0.200000 = 2.800000
+
+ SUM for tid 121 , bid 2 is -0.400000 + 0.200000 = -0.200000
+
+ SUM for tid 122 , bid 2 is -1.000000 + 0.800000 = -0.200000
+
+ SUM for tid 123 , bid 2 is -0.200000 + 0.000000 = -0.200000
+
+ SUM for tid 124 , bid 2 is 2.600000 + 2.200000 = 4.800000
+
+ SUM for tid 125 , bid 2 is 0.800000 + -1.000000 = -0.200000
+
+ SUM for tid 126 , bid 2 is 2.000000 + 1.400000 = 3.400000
+
+ SUM for tid 127 , bid 2 is -1.000000 + 1.000000 = 0.000000
+
+ SUM for tid 32 , bid 4 is 0.600000 + 2.000000 = 2.600000
+
+ SUM for tid 33 , bid 4 is 2.400000 + 0.800000 = 3.200000
+
+ SUM for tid 34 , bid 4 is 1.800000 + 1.800000 = 3.600000
+
+ SUM for tid 35 , bid 4 is 2.600000 + 0.800000 = 3.400000
+
+ SUM for tid 36 , bid 4 is 1.400000 + 0.000000 = 1.400000
+
+ SUM for tid 37 , bid 4 is 2.600000 + 2.000000 = 4.600000
+
+ SUM for tid 38 , bid 4 is 2.600000 + 2.000000 = 4.600000
+
+ SUM for tid 39 , bid 4 is 0.000000 + -0.200000 = -0.200000
+
+ SUM for tid 40 , bid 4 is 1.600000 + 1.400000 = 3.000000
+
+ SUM for tid 41 , bid 4 is -0.800000 + 1.800000 = 1.000000
+
+ SUM for tid 42 , bid 4 is 2.400000 + -1.000000 = 1.400000
+
+ SUM for tid 43 , bid 4 is -0.200000 + 2.400000 = 2.200000
+
+ SUM for tid 44 , bid 4 is 0.400000 + 1.800000 = 2.200000
+
+ SUM for tid 45 , bid 4 is 0.600000 + 2.200000 = 2.800000
+
+ SUM for tid 46 , bid 4 is 2.400000 + -0.200000 = 2.200000
+
+ SUM for tid 47 , bid 4 is 2.400000 + 2.000000 = 4.400000
+
+ SUM for tid 48 , bid 4 is -0.600000 + -1.000000 = -1.600000
+
+ SUM for tid 49 , bid 4 is 0.400000 + 1.800000 = 2.200000
+
+ SUM for tid 50 , bid 4 is -0.200000 + 0.200000 = 0.000000
+
+ SUM for tid 51 , bid 4 is -1.000000 + 0.600000 = -0.400000
+
+ SUM for tid 52 , bid 4 is 2.200000 + 1.000000 = 3.200000
+
+ SUM for tid 53 , bid 4 is -0.400000 + 1.000000 = 0.600000
+
+ SUM for tid 54 , bid 4 is 2.200000 + 0.400000 = 2.600000
+
+ SUM for tid 55 , bid 4 is 2.600000 + 1.400000 = 4.000000
+
+ SUM for tid 56 , bid 4 is -1.000000 + 2.600000 = 1.600000
+
+ SUM for tid 57 , bid 4 is -0.600000 + 1.800000 = 1.200000
+
+ SUM for tid 58 , bid 4 is 1.000000 + 2.800000 = 3.800000
+
+ SUM for tid 59 , bid 4 is -0.600000 + -1.000000 = -1.600000
+
+ SUM for tid 60 , bid 4 is 2.800000 + 2.600000 = 5.400000
+
+ SUM for tid 61 , bid 4 is 1.000000 + 2.800000 = 3.800000
+
+ SUM for tid 62 , bid 4 is 1.800000 + 1.400000 = 3.200000
+
+ SUM for tid 63 , bid 4 is 0.600000 + 0.000000 = 0.600000
+
+ SUM for tid 0 , bid 4 is 1.000000 + 1.000000 = 2.000000
+
+ SUM for tid 1 , bid 4 is 1.200000 + 1.200000 = 2.400000
+
+ SUM for tid 2 , bid 4 is 0.000000 + 0.800000 = 0.800000
+
+ SUM for tid 3 , bid 4 is -0.600000 + -0.600000 = -1.200000
+
+ SUM for tid 4 , bid 4 is 0.800000 + -0.600000 = 0.200000
+
+ SUM for tid 5 , bid 4 is 2.000000 + 2.200000 = 4.200000
+
+ SUM for tid 6 , bid 4 is 1.400000 + 0.800000 = 2.200000
+
+ SUM for tid 7 , bid 4 is 0.600000 + 0.200000 = 0.800000
+
+ SUM for tid 8 , bid 4 is 1.600000 + 0.400000 = 2.000000
+
+ SUM for tid 9 , bid 4 is -0.600000 + 2.200000 = 1.600000
+
+ SUM for tid 10 , bid 4 is -0.600000 + 0.400000 = -0.200000
+
+ SUM for tid 11 , bid 4 is -1.000000 + 2.200000 = 1.200000
+
+ SUM for tid 12 , bid 4 is 1.200000 + 1.600000 = 2.800000
+
+ SUM for tid 13 , bid 4 is 0.200000 + 2.800000 = 3.000000
+
+ SUM for tid 14 , bid 4 is 1.200000 + -0.200000 = 1.000000
+
+ SUM for tid 15 , bid 4 is 1.600000 + 0.200000 = 1.800000
+
+ SUM for tid 16 , bid 4 is 2.600000 + 0.800000 = 3.400000
+
+ SUM for tid 17 , bid 4 is 1.800000 + 1.400000 = 3.200000
+
+ SUM for tid 18 , bid 4 is 1.000000 + 2.600000 = 3.600000
+
+ SUM for tid 19 , bid 4 is 0.400000 + 1.200000 = 1.600000
+
+ SUM for tid 20 , bid 4 is 2.600000 + 2.200000 = 4.800000
+
+ SUM for tid 21 , bid 4 is 2.200000 + 2.200000 = 4.400000
+
+ SUM for tid 22 , bid 4 is 0.400000 + 1.200000 = 1.600000
+
+ SUM for tid 23 , bid 4 is 2.200000 + 0.200000 = 2.400000
+
+ SUM for tid 24 , bid 4 is 1.000000 + -0.600000 = 0.400000
+
+ SUM for tid 25 , bid 4 is 0.000000 + 0.600000 = 0.600000
+
+ SUM for tid 26 , bid 4 is 0.000000 + 0.400000 = 0.400000
+
+ SUM for tid 27 , bid 4 is 2.800000 + 2.000000 = 4.800000
+
+ SUM for tid 28 , bid 4 is 0.800000 + 1.000000 = 1.800000
+
+ SUM for tid 29 , bid 4 is 0.000000 + -0.400000 = -0.400000
+
+ SUM for tid 30 , bid 4 is -1.000000 + 0.400000 = -0.600000
+
+ SUM for tid 31 , bid 4 is 1.400000 + 1.400000 = 2.800000
+
+ SUM for tid 96 , bid 4 is 1.000000 + -1.000000 = 0.000000
+
+ SUM for tid 97 , bid 4 is -0.200000 + -1.000000 = -1.200000
+
+ SUM for tid 98 , bid 4 is 2.200000 + 1.400000 = 3.600000
+
+ SUM for tid 99 , bid 4 is 1.400000 + 0.200000 = 1.600000
+
+ SUM for tid 100 , bid 4 is 1.400000 + 1.800000 = 3.200000
+
+ SUM for tid 101 , bid 4 is -0.200000 + -0.800000 = -1.000000
+
+ SUM for tid 102 , bid 4 is 2.200000 + 0.000000 = 2.200000
+
+ SUM for tid 103 , bid 4 is -0.600000 + 1.000000 = 0.400000
+
+ SUM for tid 104 , bid 4 is -0.800000 + 1.800000 = 1.000000
+
+ SUM for tid 105 , bid 4 is 2.000000 + -0.800000 = 1.200000
+
+ SUM for tid 106 , bid 4 is 1.000000 + -0.200000 = 0.800000
+
+ SUM for tid 107 , bid 4 is 2.600000 + -0.400000 = 2.200000
+
+ SUM for tid 108 , bid 4 is 2.200000 + 1.600000 = 3.800000
+
+ SUM for tid 109 , bid 4 is 0.600000 + 1.600000 = 2.200000
+
+ SUM for tid 110 , bid 4 is 2.600000 + 1.400000 = 4.000000
+
+ SUM for tid 111 , bid 4 is -0.200000 + 0.400000 = 0.200000
+
+ SUM for tid 112 , bid 4 is 1.000000 + 0.600000 = 1.600000
+
+ SUM for tid 113 , bid 4 is -0.600000 + -0.600000 = -1.200000
+
+ SUM for tid 114 , bid 4 is 0.600000 + 2.000000 = 2.600000
+
+ SUM for tid 115 , bid 4 is 2.800000 + 1.800000 = 4.600000
+
+ SUM for tid 116 , bid 4 is -0.600000 + 2.800000 = 2.200000
+
+ SUM for tid 117 , bid 4 is -0.600000 + -0.400000 = -1.000000
+
+ SUM for tid 118 , bid 4 is 0.800000 + -0.600000 = 0.200000
+
+ SUM for tid 119 , bid 4 is 0.000000 + 1.200000 = 1.200000
+
+ SUM for tid 120 , bid 4 is 0.400000 + 2.000000 = 2.400000
+
+ SUM for tid 121 , bid 4 is 1.600000 + 2.600000 = 4.200000
+
+ SUM for tid 122 , bid 4 is 1.200000 + -1.000000 = 0.200000
+
+ SUM for tid 123 , bid 4 is 1.600000 + 1.800000 = 3.400000
+
+ SUM for tid 124 , bid 4 is -0.400000 + 1.200000 = 0.800000
+
+ SUM for tid 125 , bid 4 is 0.000000 + 2.800000 = 2.800000
+
+ SUM for tid 126 , bid 4 is 0.400000 + 1.600000 = 2.000000
+
+ SUM for tid 127 , bid 4 is 1.600000 + 1.200000 = 2.800000
+
+ SUM for tid 160 , bid 4 is 1.200000 + 1.200000 = 2.400000
+
+ SUM for tid 161 , bid 4 is -0.800000 + 0.600000 = -0.200000
+
+ SUM for tid 162 , bid 4 is 2.600000 + 1.600000 = 4.200000
+
+ SUM for tid 163 , bid 4 is 1.200000 + -0.600000 = 0.600000
+
+ SUM for tid 164 , bid 4 is 2.000000 + -0.400000 = 1.600000
+
+ SUM for tid 165 , bid 4 is 0.000000 + 1.600000 = 1.600000
+
+ SUM for tid 166 , bid 4 is 2.200000 + 0.200000 = 2.400000
+
+ SUM for tid 167 , bid 4 is 0.800000 + 1.200000 = 2.000000
+
+ SUM for tid 168 , bid 4 is 2.000000 + 2.200000 = 4.200000
+
+ SUM for tid 169 , bid 4 is -1.000000 + 1.800000 = 0.800000
+
+ SUM for tid 170 , bid 4 is 0.200000 + -1.000000 = -0.800000
+
+ SUM for tid 171 , bid 4 is -0.800000 + 1.600000 = 0.800000
+
+ SUM for tid 172 , bid 4 is 1.800000 + 0.200000 = 2.000000
+
+ SUM for tid 173 , bid 4 is -1.000000 + -1.000000 = -2.000000
+
+ SUM for tid 174 , bid 4 is -0.800000 + 1.000000 = 0.200000
+
+ SUM for tid 175 , bid 4 is -0.600000 + -1.000000 = -1.600000
+
+ SUM for tid 176 , bid 4 is 1.600000 + -0.400000 = 1.200000
+
+ SUM for tid 177 , bid 4 is 1.600000 + -0.800000 = 0.800000
+
+ SUM for tid 178 , bid 4 is -0.800000 + 0.200000 = -0.600000
+
+ SUM for tid 179 , bid 4 is 0.800000 + 1.800000 = 2.600000
+
+ SUM for tid 180 , bid 4 is -0.600000 + 0.200000 = -0.400000
+
+ SUM for tid 181 , bid 4 is 2.200000 + 1.200000 = 3.400000
+
+ SUM for tid 182 , bid 4 is -0.200000 + 0.600000 = 0.400000
+
+ SUM for tid 183 , bid 4 is 0.600000 + -0.800000 = -0.200000
+
+ SUM for tid 184 , bid 4 is 2.000000 + -0.800000 = 1.200000
+
+ SUM for tid 185 , bid 4 is 1.600000 + -1.000000 = 0.600000
+
+ SUM for tid 186 , bid 4 is 0.200000 + 0.600000 = 0.800000
+
+ SUM for tid 187 , bid 4 is 1.000000 + 0.800000 = 1.800000
+
+ SUM for tid 188 , bid 4 is 0.600000 + 1.800000 = 2.400000
+
+ SUM for tid 189 , bid 4 is -0.600000 + 0.400000 = -0.200000
+
+ SUM for tid 190 , bid 4 is 2.000000 + 2.400000 = 4.400000
+
+ SUM for tid 191 , bid 4 is 2.800000 + 2.600000 = 5.400000
+
+ SUM for tid 128 , bid 4 is -0.800000 + 2.800000 = 2.000000
+
+ SUM for tid 129 , bid 4 is -0.400000 + 0.000000 = -0.400000
+
+ SUM for tid 130 , bid 4 is 0.200000 + 2.600000 = 2.800000
+
+ SUM for tid 131 , bid 4 is 1.600000 + 0.000000 = 1.600000
+
+ SUM for tid 132 , bid 4 is -1.000000 + 2.600000 = 1.600000
+
+ SUM for tid 133 , bid 4 is 1.800000 + 2.000000 = 3.800000
+
+ SUM for tid 134 , bid 4 is 2.000000 + 0.400000 = 2.400000
+
+ SUM for tid 135 , bid 4 is 1.600000 + -0.200000 = 1.400000
+
+ SUM for tid 136 , bid 4 is -0.800000 + 2.200000 = 1.400000
+
+ SUM for tid 137 , bid 4 is 2.600000 + 1.200000 = 3.800000
+
+ SUM for tid 138 , bid 4 is -0.200000 + 0.400000 = 0.200000
+
+ SUM for tid 139 , bid 4 is 2.400000 + 0.800000 = 3.200000
+
+ SUM for tid 140 , bid 4 is 0.200000 + 2.200000 = 2.400000
+
+ SUM for tid 141 , bid 4 is 1.800000 + -1.000000 = 0.800000
+
+ SUM for tid 142 , bid 4 is -0.800000 + 0.600000 = -0.200000
+
+ SUM for tid 143 , bid 4 is 0.600000 + 0.000000 = 0.600000
+
+ SUM for tid 144 , bid 4 is 2.200000 + 1.800000 = 4.000000
+
+ SUM for tid 145 , bid 4 is -0.800000 + -0.400000 = -1.200000
+
+ SUM for tid 146 , bid 4 is 2.800000 + 1.200000 = 4.000000
+
+ SUM for tid 147 , bid 4 is 2.600000 + 1.800000 = 4.400000
+
+ SUM for tid 148 , bid 4 is 2.200000 + 2.600000 = 4.800000
+
+ SUM for tid 149 , bid 4 is 0.800000 + 1.600000 = 2.400000
+
+ SUM for tid 150 , bid 4 is 2.000000 + 0.000000 = 2.000000
+
+ SUM for tid 151 , bid 4 is -0.400000 + 1.800000 = 1.400000
+
+ SUM for tid 152 , bid 4 is 1.800000 + -0.400000 = 1.400000
+
+ SUM for tid 153 , bid 4 is 0.200000 + 2.400000 = 2.600000
+
+ SUM for tid 154 , bid 4 is 2.200000 + -1.000000 = 1.200000
+
+ SUM for tid 155 , bid 4 is 2.600000 + 2.000000 = 4.600000
+
+ SUM for tid 156 , bid 4 is -0.400000 + 2.200000 = 1.800000
+
+ SUM for tid 157 , bid 4 is 2.000000 + 1.800000 = 3.800000
+
+ SUM for tid 158 , bid 4 is -0.400000 + 2.600000 = 2.200000
+
+ SUM for tid 159 , bid 4 is -0.200000 + 0.600000 = 0.400000
+
+ SUM for tid 64 , bid 4 is 0.400000 + 0.600000 = 1.000000
+
+ SUM for tid 65 , bid 4 is -1.000000 + 2.800000 = 1.800000
+
+ SUM for tid 66 , bid 4 is 2.600000 + 1.800000 = 4.400000
+
+ SUM for tid 67 , bid 4 is 1.200000 + 0.000000 = 1.200000
+
+ SUM for tid 68 , bid 4 is 1.000000 + 1.800000 = 2.800000
+
+ SUM for tid 69 , bid 4 is 0.600000 + -0.800000 = -0.200000
+
+ SUM for tid 70 , bid 4 is 0.600000 + 0.800000 = 1.400000
+
+ SUM for tid 71 , bid 4 is -0.400000 + 2.600000 = 2.200000
+
+ SUM for tid 72 , bid 4 is 0.800000 + 2.200000 = 3.000000
+
+ SUM for tid 73 , bid 4 is 2.400000 + -0.800000 = 1.600000
+
+ SUM for tid 74 , bid 4 is 2.800000 + 2.200000 = 5.000000
+
+ SUM for tid 75 , bid 4 is 0.600000 + -0.600000 = 0.000000
+
+ SUM for tid 76 , bid 4 is 0.000000 + 2.400000 = 2.400000
+
+ SUM for tid 77 , bid 4 is 0.600000 + -1.000000 = -0.400000
+
+ SUM for tid 78 , bid 4 is 0.000000 + 2.400000 = 2.400000
+
+ SUM for tid 79 , bid 4 is 2.800000 + 0.800000 = 3.600000
+
+ SUM for tid 80 , bid 4 is 0.600000 + 1.800000 = 2.400000
+
+ SUM for tid 81 , bid 4 is -0.600000 + 2.000000 = 1.400000
+
+ SUM for tid 82 , bid 4 is 1.400000 + 2.600000 = 4.000000
+
+ SUM for tid 83 , bid 4 is -0.200000 + 2.200000 = 2.000000
+
+ SUM for tid 84 , bid 4 is 2.400000 + 0.000000 = 2.400000
+
+ SUM for tid 85 , bid 4 is 0.600000 + 0.000000 = 0.600000
+
+ SUM for tid 86 , bid 4 is -0.600000 + 0.600000 = 0.000000
+
+ SUM for tid 87 , bid 4 is 1.000000 + 2.200000 = 3.200000
+
+ SUM for tid 88 , bid 4 is -0.600000 + 2.800000 = 2.200000
+
+ SUM for tid 89 , bid 4 is 1.400000 + -1.000000 = 0.400000
+
+ SUM for tid 90 , bid 4 is 1.400000 + 2.200000 = 3.600000
+
+ SUM for tid 91 , bid 4 is 1.800000 + 0.800000 = 2.600000
+
+ SUM for tid 92 , bid 4 is 1.800000 + 2.800000 = 4.600000
+
+ SUM for tid 93 , bid 4 is 2.600000 + -0.800000 = 1.800000
+
+ SUM for tid 94 , bid 4 is 1.800000 + 0.200000 = 2.000000
+
+ SUM for tid 95 , bid 4 is 1.600000 + 0.400000 = 2.000000
+{"data": {"elapsed_time": 8035551, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 106, "end_time": 1341415322393202, "id": "1ff650d2-652a-4b8e-bf32-1c094bd07bc4", "idx": 3, "kind": "Compute", "message": "Performing CUDA computation", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 100, "start_time": 1341415314357651, "stopped": true}, "id": "1ff650d2-652a-4b8e-bf32-1c094bd07bc4", "session_id": "session_id_disabled", "type": "timer"}
+{"data": {"elapsed_time": 28249, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 122, "end_time": 1341415322444443, "id": "9de27621-5f1d-489a-b18b-4775fc437ea9", "idx": 4, "kind": "Copy", "message": "Copying output memory to the CPU", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 108, "start_time": 1341415322416194, "stopped": true}, "id": "9de27621-5f1d-489a-b18b-4775fc437ea9", "session_id": "session_id_disabled", "type": "timer"}
+{"data": {"elapsed_time": 107643, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 132, "end_time": 1341415322570594, "id": "82ee2ce9-a883-43da-9b76-c22c6e753781", "idx": 5, "kind": "GPU", "message": "Freeing GPU Memory", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 124, "start_time": 1341415322462951, "stopped": true}, "id": "82ee2ce9-a883-43da-9b76-c22c6e753781", "session_id": "session_id_disabled", "type": "timer"}
+{"data": {"correctq": true, "message": "The solution is correct"}, "type": "solution"}

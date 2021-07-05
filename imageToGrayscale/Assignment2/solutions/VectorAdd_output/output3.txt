@@ -1,0 +1,232 @@
+{"data": {"elapsed_time": 7811810, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 43, "end_time": 1341413939326923, "id": "36860e6a-f597-4879-8469-93d2f9f13c63", "idx": 0, "kind": "Generic", "message": "Importing data and creating memory on host", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 39, "start_time": 1341413931515113, "stopped": true}, "id": "36860e6a-f597-4879-8469-93d2f9f13c63", "session_id": "session_id_disabled", "type": "timer"}
+{"data": {"file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "function": "main", "id": "161809be-a01a-47b7-8d6c-0b7446829f51", "level": "Trace", "line": 45, "message": "The input length is 112", "mpi_rank": 0, "session_id": "session_id_disabled", "time": 1341413939524197}, "id": "161809be-a01a-47b7-8d6c-0b7446829f51", "session_id": "session_id_disabled", "type": "logger"}
+{"data": {"elapsed_time": 157025073, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 66, "end_time": 1341414096589130, "id": "3c962c9c-4919-4b3d-8c8c-fc65ef7c783e", "idx": 1, "kind": "GPU", "message": "Allocating GPU memory.", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 47, "start_time": 1341413939564057, "stopped": true}, "id": "3c962c9c-4919-4b3d-8c8c-fc65ef7c783e", "session_id": "session_id_disabled", "type": "timer"}
+{"data": {"elapsed_time": 42195, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 93, "end_time": 1341414096673967, "id": "4599836f-4d4f-42f8-b5f7-31de65f9addc", "idx": 2, "kind": "GPU", "message": "Copying input memory to the GPU.", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 68, "start_time": 1341414096631772, "stopped": true}, "id": "4599836f-4d4f-42f8-b5f7-31de65f9addc", "session_id": "session_id_disabled", "type": "timer"}
+
+ SUM for tid 96 , bid 0 is 1.800000 + 2.000000 = 3.800000
+
+ SUM for tid 97 , bid 0 is -0.800000 + -0.800000 = -1.600000
+
+ SUM for tid 98 , bid 0 is -1.000000 + -1.000000 = -2.000000
+
+ SUM for tid 99 , bid 0 is -0.200000 + 1.600000 = 1.400000
+
+ SUM for tid 100 , bid 0 is 0.600000 + 0.400000 = 1.000000
+
+ SUM for tid 101 , bid 0 is 0.400000 + 0.600000 = 1.000000
+
+ SUM for tid 102 , bid 0 is 1.000000 + 2.600000 = 3.600000
+
+ SUM for tid 103 , bid 0 is 0.600000 + 0.200000 = 0.800000
+
+ SUM for tid 104 , bid 0 is 2.200000 + 1.000000 = 3.200000
+
+ SUM for tid 105 , bid 0 is -0.600000 + -0.200000 = -0.800000
+
+ SUM for tid 106 , bid 0 is 1.800000 + 2.200000 = 4.000000
+
+ SUM for tid 107 , bid 0 is 2.400000 + 2.400000 = 4.800000
+
+ SUM for tid 108 , bid 0 is 2.800000 + 0.200000 = 3.000000
+
+ SUM for tid 109 , bid 0 is -0.400000 + -1.000000 = -1.400000
+
+ SUM for tid 110 , bid 0 is 2.800000 + 0.800000 = 3.600000
+
+ SUM for tid 111 , bid 0 is -0.600000 + 2.400000 = 1.800000
+
+ SUM for tid 64 , bid 0 is -0.400000 + 1.400000 = 1.000000
+
+ SUM for tid 65 , bid 0 is 1.600000 + 0.200000 = 1.800000
+
+ SUM for tid 66 , bid 0 is 1.600000 + -1.000000 = 0.600000
+
+ SUM for tid 67 , bid 0 is 0.600000 + 0.200000 = 0.800000
+
+ SUM for tid 68 , bid 0 is 1.000000 + 0.200000 = 1.200000
+
+ SUM for tid 69 , bid 0 is 1.800000 + 1.800000 = 3.600000
+
+ SUM for tid 70 , bid 0 is 0.400000 + 2.200000 = 2.600000
+
+ SUM for tid 71 , bid 0 is 0.200000 + 1.400000 = 1.600000
+
+ SUM for tid 72 , bid 0 is 0.600000 + 2.600000 = 3.200000
+
+ SUM for tid 73 , bid 0 is 0.800000 + 0.800000 = 1.600000
+
+ SUM for tid 74 , bid 0 is -1.000000 + 0.200000 = -0.800000
+
+ SUM for tid 75 , bid 0 is 0.200000 + 1.000000 = 1.200000
+
+ SUM for tid 76 , bid 0 is 0.600000 + 0.400000 = 1.000000
+
+ SUM for tid 77 , bid 0 is 2.400000 + 1.000000 = 3.400000
+
+ SUM for tid 78 , bid 0 is 0.800000 + 1.200000 = 2.000000
+
+ SUM for tid 79 , bid 0 is 1.000000 + -1.000000 = 0.000000
+
+ SUM for tid 80 , bid 0 is -0.400000 + 1.200000 = 0.800000
+
+ SUM for tid 81 , bid 0 is 1.600000 + 1.600000 = 3.200000
+
+ SUM for tid 82 , bid 0 is -0.400000 + 2.400000 = 2.000000
+
+ SUM for tid 83 , bid 0 is 2.400000 + 0.400000 = 2.800000
+
+ SUM for tid 84 , bid 0 is 1.600000 + 1.400000 = 3.000000
+
+ SUM for tid 85 , bid 0 is 1.400000 + 0.200000 = 1.600000
+
+ SUM for tid 86 , bid 0 is 0.200000 + 1.800000 = 2.000000
+
+ SUM for tid 87 , bid 0 is 0.000000 + 2.000000 = 2.000000
+
+ SUM for tid 88 , bid 0 is 1.400000 + 1.400000 = 2.800000
+
+ SUM for tid 89 , bid 0 is 2.200000 + 1.000000 = 3.200000
+
+ SUM for tid 90 , bid 0 is 2.000000 + 1.400000 = 3.400000
+
+ SUM for tid 91 , bid 0 is 0.600000 + 2.800000 = 3.400000
+
+ SUM for tid 92 , bid 0 is 2.400000 + 1.000000 = 3.400000
+
+ SUM for tid 93 , bid 0 is 0.800000 + 0.800000 = 1.600000
+
+ SUM for tid 94 , bid 0 is 2.200000 + 0.800000 = 3.000000
+
+ SUM for tid 95 , bid 0 is -1.000000 + 1.800000 = 0.800000
+
+ SUM for tid 0 , bid 0 is 1.000000 + 0.600000 = 1.600000
+
+ SUM for tid 1 , bid 0 is -0.200000 + -0.400000 = -0.600000
+
+ SUM for tid 2 , bid 0 is 1.400000 + -1.000000 = 0.400000
+
+ SUM for tid 3 , bid 0 is 1.400000 + -0.800000 = 0.600000
+
+ SUM for tid 4 , bid 0 is 1.400000 + 0.400000 = 1.800000
+
+ SUM for tid 5 , bid 0 is 1.000000 + 2.600000 = 3.600000
+
+ SUM for tid 6 , bid 0 is 0.000000 + 2.800000 = 2.800000
+
+ SUM for tid 7 , bid 0 is 0.000000 + 1.200000 = 1.200000
+
+ SUM for tid 8 , bid 0 is -0.600000 + 2.000000 = 1.400000
+
+ SUM for tid 9 , bid 0 is 2.800000 + 1.800000 = 4.600000
+
+ SUM for tid 10 , bid 0 is -1.000000 + 2.800000 = 1.800000
+
+ SUM for tid 11 , bid 0 is -0.600000 + 1.400000 = 0.800000
+
+ SUM for tid 12 , bid 0 is 2.600000 + 2.000000 = 4.600000
+
+ SUM for tid 13 , bid 0 is 1.600000 + 0.400000 = 2.000000
+
+ SUM for tid 14 , bid 0 is 2.600000 + -0.200000 = 2.400000
+
+ SUM for tid 15 , bid 0 is 1.000000 + 0.800000 = 1.800000
+
+ SUM for tid 16 , bid 0 is -0.200000 + 0.800000 = 0.600000
+
+ SUM for tid 17 , bid 0 is 1.000000 + -0.200000 = 0.800000
+
+ SUM for tid 18 , bid 0 is 0.800000 + 0.000000 = 0.800000
+
+ SUM for tid 19 , bid 0 is -0.800000 + 0.800000 = 0.000000
+
+ SUM for tid 20 , bid 0 is 2.800000 + -0.400000 = 2.400000
+
+ SUM for tid 21 , bid 0 is 2.200000 + 2.000000 = 4.200000
+
+ SUM for tid 22 , bid 0 is 1.400000 + 2.400000 = 3.800000
+
+ SUM for tid 23 , bid 0 is 2.000000 + -1.000000 = 1.000000
+
+ SUM for tid 24 , bid 0 is 1.800000 + 2.600000 = 4.400000
+
+ SUM for tid 25 , bid 0 is -0.200000 + 1.200000 = 1.000000
+
+ SUM for tid 26 , bid 0 is 2.800000 + 0.800000 = 3.600000
+
+ SUM for tid 27 , bid 0 is 0.800000 + 0.800000 = 1.600000
+
+ SUM for tid 28 , bid 0 is 1.600000 + 0.400000 = 2.000000
+
+ SUM for tid 29 , bid 0 is 2.200000 + 0.600000 = 2.800000
+
+ SUM for tid 30 , bid 0 is 1.000000 + 1.400000 = 2.400000
+
+ SUM for tid 31 , bid 0 is 2.000000 + 2.000000 = 4.000000
+
+ SUM for tid 32 , bid 0 is -1.000000 + -0.400000 = -1.400000
+
+ SUM for tid 33 , bid 0 is -0.600000 + -0.200000 = -0.800000
+
+ SUM for tid 34 , bid 0 is 2.800000 + 0.800000 = 3.600000
+
+ SUM for tid 35 , bid 0 is -0.200000 + 1.000000 = 0.800000
+
+ SUM for tid 36 , bid 0 is 1.600000 + -0.600000 = 1.000000
+
+ SUM for tid 37 , bid 0 is 0.000000 + -1.000000 = -1.000000
+
+ SUM for tid 38 , bid 0 is -0.800000 + -0.800000 = -1.600000
+
+ SUM for tid 39 , bid 0 is 0.400000 + 0.800000 = 1.200000
+
+ SUM for tid 40 , bid 0 is -0.200000 + 0.200000 = 0.000000
+
+ SUM for tid 41 , bid 0 is 1.600000 + 1.400000 = 3.000000
+
+ SUM for tid 42 , bid 0 is -0.800000 + -0.800000 = -1.600000
+
+ SUM for tid 43 , bid 0 is 1.800000 + -0.600000 = 1.200000
+
+ SUM for tid 44 , bid 0 is 0.200000 + -1.000000 = -0.800000
+
+ SUM for tid 45 , bid 0 is 2.800000 + 2.400000 = 5.200000
+
+ SUM for tid 46 , bid 0 is -0.200000 + -0.400000 = -0.600000
+
+ SUM for tid 47 , bid 0 is -0.600000 + -0.800000 = -1.400000
+
+ SUM for tid 48 , bid 0 is -0.600000 + -0.800000 = -1.400000
+
+ SUM for tid 49 , bid 0 is 0.200000 + 0.800000 = 1.000000
+
+ SUM for tid 50 , bid 0 is -0.200000 + 1.000000 = 0.800000
+
+ SUM for tid 51 , bid 0 is -0.800000 + 0.000000 = -0.800000
+
+ SUM for tid 52 , bid 0 is -0.600000 + 2.200000 = 1.600000
+
+ SUM for tid 53 , bid 0 is 0.600000 + 0.400000 = 1.000000
+
+ SUM for tid 54 , bid 0 is 0.600000 + 2.400000 = 3.000000
+
+ SUM for tid 55 , bid 0 is 0.800000 + 1.800000 = 2.600000
+
+ SUM for tid 56 , bid 0 is 1.400000 + 1.000000 = 2.400000
+
+ SUM for tid 57 , bid 0 is 0.600000 + 0.200000 = 0.800000
+
+ SUM for tid 58 , bid 0 is 2.600000 + -0.200000 = 2.400000
+
+ SUM for tid 59 , bid 0 is 2.600000 + 2.400000 = 5.000000
+
+ SUM for tid 60 , bid 0 is 2.200000 + 1.800000 = 4.000000
+
+ SUM for tid 61 , bid 0 is 0.600000 + 0.600000 = 1.200000
+
+ SUM for tid 62 , bid 0 is 1.600000 + 0.000000 = 1.600000
+
+ SUM for tid 63 , bid 0 is 0.600000 + 2.600000 = 3.200000
+{"data": {"elapsed_time": 2097463, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 106, "end_time": 1341414098801073, "id": "69133ad4-1373-45e3-bf82-66d79ce68e13", "idx": 3, "kind": "Compute", "message": "Performing CUDA computation", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 100, "start_time": 1341414096703610, "stopped": true}, "id": "69133ad4-1373-45e3-bf82-66d79ce68e13", "session_id": "session_id_disabled", "type": "timer"}
+{"data": {"elapsed_time": 29469, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 122, "end_time": 1341414099067447, "id": "9c9dba85-f81a-4c7a-b090-05b9899c1e90", "idx": 4, "kind": "Copy", "message": "Copying output memory to the CPU", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 108, "start_time": 1341414099037978, "stopped": true}, "id": "9c9dba85-f81a-4c7a-b090-05b9899c1e90", "session_id": "session_id_disabled", "type": "timer"}
+{"data": {"elapsed_time": 115139, "end_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "end_function": "main", "end_line": 132, "end_time": 1341414099202542, "id": "28482e29-55b9-4425-b14e-1f894181db69", "idx": 5, "kind": "GPU", "message": "Freeing GPU Memory", "mpi_rank": 0, "parent_id": -1, "session_id": "session_id_disabled", "start_file": "/home/u28/rishv1995/ece569/labs/hw2/VectorAdd/solution.cu", "start_function": "main", "start_line": 124, "start_time": 1341414099087403, "stopped": true}, "id": "28482e29-55b9-4425-b14e-1f894181db69", "session_id": "session_id_disabled", "type": "timer"}
+{"data": {"correctq": true, "message": "The solution is correct"}, "type": "solution"}
