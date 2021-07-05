@@ -1,0 +1,35 @@
+{
+	"questions": [
+		"What is the name of the GPU device used on the Ocelote?",
+--- Tesla P100-PCIE-16GB
+		"What is the compute capability of this device?",
+--- 6.0
+		"What are the shared, constant and global memory sizes for this device?",
+--- 17071734784, 65336, 49151
+		"What is the maxim size of the block dimensions for this device?",
+--- 1024 x 1024 x 64   
+		"What is the compute capability of the NVIDIA Fermi architecture?",
+--- 2.0
+		"What are the maximum block dimensions for GPUs with 5.0 compute capability?",
+--- 2147483647 x 65535 x 65535
+		"Suppose you are launching a one dimensional grid and block. If the hardware's maximum grid dimension is 65535 and the maximum block dimension is 512, what is the maximum number threads can be launched on the GPU?",
+--- 65535 * 512 = 3355390 
+		"Under what conditions might a programmer choose not want to launch the maximum number of threads?",
+--- Using the maximum threads for a job on GPU is limited by the GPU's register allocation for the thread. Therefore, there will not be enough registers to allocate for the maximum number of threads, launching jobs with maximum thread use will signitficantly slow the execution. 
+		"What can limit a program from launching the maximum number of threads on a GPU?",
+--- Allocation of registers for each thread
+		"What is shared memory?",
+--- Shared memory can accessed by all threads on the same blocks i.e. threads from different blocks cannot access it. Read/write access is faster than global memory.  
+		"What is global memory?",
+--- Total amount of DRAM on GPU. Allocated by CPU on the GPU. All threads can access it regardless of the their block allocation. Personally, I like to think of this as global variables when writing C programs, where any preogram can access "global variables", similarly any thread can access global memory. 
+		"What is constant memory?",
+--- 'Read only' cache availble for all threads on GPU. It's speciality is because it has a cache. 
+		"What does warp size signify on a GPU?",
+--- It's a number of threads running concurrently on a processor. Length of the sub division of threads in a block.
+		"Is double precision supported on GPUs with 1.3 compute capability?"
+---Yes
+
+		"What does compute capability mean?"
+--- Compute capability is a reference used to determine general specs and available features of a given GPU. Compute capability is a "version number" where one can look up specs of the GPU. Basically, It refers to the HW.       	
+	]
+}
